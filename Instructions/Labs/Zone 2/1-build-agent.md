@@ -98,7 +98,8 @@ Now select the **Settings** command in the upper right corner of the screen and 
 
 - **Use general knowledge**: Disabled
 - **Use information from the web**: Disabled
-    ![Screenshot your agent's model.](../Media/knowledge.png)
+
+    ![Screenshot your agent's model.](../Media/Knowledge.png)
 
 Select **Save** to update the settings and to ensure that only the knowledge base explicitly provided to the agent will be used when processing user's prompts.
 
