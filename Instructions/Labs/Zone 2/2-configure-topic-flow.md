@@ -23,7 +23,7 @@ Select **Save** in the upper right corner of the topic designer to save the curr
 1. Name the new topic: `Summarize an Opportunity`.
 1. Hover over the topic trigger created by default and select the icon with two arrows to change the trigger.
    ![Screenshot of Change Trigger icon.](../Media/change-trigger.png)
-1. Under *Change trigger**, select **It's redirected to**.
+1. Under **Change trigger**, select **It's redirected to**.
 1. Select **+** under the topic trigger, then select **Send a message**.
 1. In the message box, enter: `Great, you'd like me to summarize an opportunity.`.
 1. Select **+** under the message action. Choose **Topic management**, then select **End all topics**.
