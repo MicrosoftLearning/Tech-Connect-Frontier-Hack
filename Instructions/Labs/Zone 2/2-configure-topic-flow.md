@@ -35,7 +35,7 @@ Select **Save** in the upper right corner of the topic designer to save the curr
 
 Below you can see what the `Summarize an Opportunity` topic should look like:
 
-![Screenshot of child topic.](../Media/Summarize_topic.png)
+![Screenshot of child topic.](../Media/summarize_topic.png)
 
 ### Step 3: Use AI Prompt Builder
 
