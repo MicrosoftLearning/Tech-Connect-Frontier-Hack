@@ -2,7 +2,7 @@
 
 ### Step 1: Adding Generative Answers to the Summarize an Opportunity Topic
 
-1. Navigate to the **Topics** section in your agent. You should see 3 topics created previously. Select, `Summarize an Opportunity` to open the topic designer.
+1. Navigate to the **Topics** tab. You should see the topics created previously. Select, `Summarize an Opportunity` to open the topic designer.
 
 1. Under the existing message action, select the **+** command to add a new action.
 
@@ -18,13 +18,13 @@
 
 1. Under the question action, select the **+** command to add another new action.
 
-1. In the action menu, select **Advanced** > **Create generative answers**.
+1. In the action menu, select **Advanced** > **Generative answers**.
 
     ![screenshot showing generative answers action](../Media/generativeanswers.png)
 
 1. In the **Create generative answers** action, select *...* to the right of **Enter or select a value**.
 
-1. Select **Formula**, input the following PowerFx expression, and select **insert**:
+1. Select **Formula**, input the following PowerFx expression, and select **Insert**:
 
     ```plaintext
     "Using ONLY the single opportunity record returned immediately above for Opportunity Name: " &
@@ -47,9 +47,9 @@
 1. While still in the **Create generative answers** action, select **Edit** under **Data sources**. Configure the following settings:
 
     - **Knowledge sources**
-        - Toggle to enable the flag
-        - Select the synthetic CRM dataset you attached earlier
-    - **Ensure Web Search flag is disabled**
+        - **Search only selected sources**: enabled
+        - Select the .csv file you uploaded in lab 1
+        - **Web search**: disabled
 
         ![screenshot showing generative properties](../Media/creategenproperties.png)
 
@@ -57,7 +57,7 @@
 
 ### Step 2: Adding Generative Answers to the Review Opportunity Details Topic
 
-1. Follow steps 1-9 from Step 1, but this time in the `Review Opportunity Details` topic.
+1. Follow steps 1-9 from Step 1, but this time in the **Review Opportunity Details** topic.
 
 1. Once you're at the **Create generative answers** action, input the following PowerFx expression, and select **insert**:
 
@@ -98,7 +98,15 @@
     & "- Deal Notes" & Char(10) & Char(10)
     & "If any value is missing, leave it blank. Do not add interpretation. Do not output any other rows."
     ```
-1. Repeat step 11 from Step 1 to configure the data sources.
+
+1. While still in the **Create generative answers** action, select **Edit** under **Data sources**. Configure the following settings:
+
+    - **Knowledge sources**
+        - **Search only selected sources**: enabled
+        - Select the .csv file you uploaded in lab 1
+        - **Web search**: disabled
+
+        ![screenshot showing generative properties](../Media/creategenproperties.png)
 
 1. Select **Save** in the upper right corner of the topic designer to save the Topic.
 
@@ -107,6 +115,8 @@
 If the **Test your agent** pane is not already open, select the **Test** button in the upper right corner of the agent designer to open it.
 
 ![screenshot showing test agent pane.](../Media/testagent.png)
+
+In the **Test your agent** pane, select the **+** icon to **Start a new test session**.
 
 #### Test 1: Summarize an Opportunity
 
@@ -138,4 +148,4 @@ Hunter Ltd – AI Deployment
 
 ![screenshot showing testing results.](../Media/expectedresults.png)
 
-You may now proceed to the next task in zone 2, **Chalenge: Go beyond the script**
+You may now proceed to the next task in zone 2, **Challenge: Go beyond the script**
