@@ -2,11 +2,11 @@
 
 ### Step 1: Create the Intent Analysis Topic
 
-First, create the main topic that will be used intelligent routing:
+First, create the main topic that will be used for intelligent routing:
 
 1. In your "Opportunity Review Advisor" agent, select the **Topics** tab in the upper navigation of the agent designer
-2. Select **+ Add a topic** and choose **From blank**
-3. Click **Untitled** in the top left corner and rename the topic to `Intent Analysis`
+2. Select **+ Add a topic** and select **From blank**
+3. Select **Untitled** in the top left corner and rename the topic to `Intent Analysis`
 4. Under **Trigger** in the **Describe what the topic does** section, copy the following description:
 
 ```text
@@ -21,7 +21,8 @@ Select **Save** in the upper right corner of the topic designer to save the curr
 
 1. Navigate back to the list of **Topics** and create a new topic from blank.
 1. Name the new topic: `Summarize an Opportunity`.
-1. However over the topic trigger created by default and select the icone with two arrows to configure the trigger condition.
+1. Hover over the topic trigger created by default and select the icon with two arrows to change the trigger.
+   ![Screenshot of Change Trigger icon.](../Media/change-trigger.png)
 1. Under *Change trigger**, select **It's redirected to**.
 1. Select **+** under the topic trigger, then select **Send a message**.
 1. In the message box, enter: `Great, you'd like me to summarize an opportunity.`.
