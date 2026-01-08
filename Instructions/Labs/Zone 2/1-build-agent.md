@@ -19,7 +19,7 @@ For the **user's password**, provide the following value:
 
 ### Step 2: Create the agent
 
-Once your in Copilot Studio, the tool will start with the agent creation wizard. Select **Configure** to switch to the agent configuration. If you cancel the wizard, select **Create** in the left navigation menu of Copilot Studio, then choose **+ New agent** to create a new agent and select **Configure** in the agent creation wizard.
+Once you are in Copilot Studio, the tool will start with the agent creation wizard. Select **Configure** to switch to the agent configuration. If you cancel the wizard, select **Create** in the left navigation menu of Copilot Studio, then choose **+ New agent** to create a new agent and select **Configure** in the agent creation wizard.
 
 Once you are in the **Configure** panel, define your new agent with the following settings (you can copy and paste the values):
 
@@ -54,11 +54,13 @@ Always base your responses on the CRM data provided. Do not infer, assume, or ge
 
 ![Screenshot of Name, Description, and Instructions.](../Media/Name_description.png)
 
-Select **Create** to create your new agent.
+Select **Create** to create your new agent. 
+
+The agent will be provisioned. Wait for the alert, "Your agent has been provisioned" or for the **Publish** button to become enabled to proceed with configuring your agent.
 
 ### Step 3: Attach knowledge
 
-After creating the agent, you'll be taken to the agent configuration page. Wait for the **Publish** command in the upper right corner to become enabled. Scroll down to the **Knowledge** section, select **+ Add knowledge**.
+ Scroll down to the **Knowledge** section, select **+ Add knowledge**.
 
 1. Select **Select to browse**
 1. In file explorer, select **Desktop**
@@ -72,12 +74,14 @@ After creating the agent, you'll be taken to the agent configuration page. Wait 
 
 ### Step 4: Build initial conversation starters
 
-In this task you are going to configure some conversation starters, which will help users of your agent to get suggested prompts when they start using your agent.
+In this task, you are going to configure some conversation starters, which will provide users with suggested prompts when they start using your agent.
 
 Scroll down to the **Suggested prompts** section, select the command **+ Add suggested prompts**, and add these helpful prompts:
 
 1. Title: `Summarize an Opportunity` - Prompt: `Can you provide an Opportunity summary?`
 1. Title: `Review a Customer Opportunity` - Prompt: `Can you review the details of a Customer Opportunity?`
+
+Select **Save**.
 
 For now, this is all you need to do in this step. You will revisit this section later to add more suggested prompts after you have configured topics for your agent.
 
