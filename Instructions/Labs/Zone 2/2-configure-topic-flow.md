@@ -39,7 +39,7 @@ Below you can see what the `Summarize an Opportunity` topic should look like:
 
 ### Step 3: Use AI Prompt Builder
 
-Navigate back to your **Intent Analysis** topic. Now we will add the **New Prompt** action to the topic in order to leverage the **AI Builder** capabilities.
+Open the **Intent Analysis** topic. Now we will add the **New Prompt** action to the topic in order to leverage the **AI Builder** capabilities.
 
 1. Select the **+** command to add a new action to the topic
 1. Select **Add a tool** to open the list of tools
@@ -111,7 +111,7 @@ Navigate back to your **Intent Analysis** topic. Now we will add the **New Promp
 
     ![screenshot showing JSON output selected.](../Media/intentjson.png)
 
-1. **Optionally** you can select **User's message** in the prompt field and modify the sample data to say `I want to review customer opportunity data`, then select **Test** again to validate that the output has changed to **Details**.
+1. **Optional:** you can select **User's message** in the prompt field and modify the sample data to say `I want to review customer opportunity data`, then select **Test** again to validate that the output has changed to **Details**.
 
 1. Select the **Save** command in the lower right side of the dialog to save the generated prompt and to go back to the topic designer.
 
@@ -135,18 +135,18 @@ Navigate back to your **Intent Analysis** topic. Now we will add the **New Promp
 
 ### Step 4: Build the conversation flow
 
-1. At the end of the **Intent Analysis** topic, right after **Prompt Builder** action, Insert a new action for **Set a variable value**, under the group **Variable management**.
+1. At the end of the **Intent Analysis** topic, right after **Prompt** action, Insert a new action for **Set a variable value**, under the group **Variable management**.
 
     ![screenshot showing set a variable.](../Media/setvariable.png)
 
-1. Select the **Select a variable** field, then select to **Create a new variable**. Select the new **Var1** variable to show the side panel and rename it to `approach`.
+1. Select **Select a variable**, then select to **Create a new variable**. Select the new **Var1** variable to show the side panel and rename it to `approach`.
 
     ![screenshot showing variable options.](../Media/approachvariable.png)
 
 1. Now, select the **To value** field of the action and set its value to the following PowerFx formula and then select **Insert**:
 
     ```text
-    Topic.intentPrediction.structuredOutput.approach
+    Topic.IntentPrediction.structuredOutput.approach
     ```
 
     ![screenshot showing variable options.](../Media/approachpowerfx.png)
@@ -155,8 +155,8 @@ Navigate back to your **Intent Analysis** topic. Now we will add the **New Promp
 
 1. **Summary Branch:**
 
-    - Name the new branch with name `Summary`
-    - Click on  **Select a variable** and select the `approach` variable
+    - Rename the new branch `Summary`
+    - Click on **Select a variable** and select the `approach` variable
     - Set the condition to **is equal to** and set the value to compare to `summary`
     - Select the **+** button to add a new action inside the branch. Select the group of actions with name **Topic management**, then **Go to another topic**, and then select the topic with name `Summarize an Opportunity`
 
@@ -165,10 +165,10 @@ Navigate back to your **Intent Analysis** topic. Now we will add the **New Promp
 1. **Details Branch:**
 
     - Select the **+** icon just before the conditional block and select **Add a condition** to add a new branch
-    - Name the new branch with name `Details`
+    - Rename the new branch `Details`
     - Click on  **Select a variable** and select the `approach` variable
     - Set the condition to **is equal to** and set the value to compare to `details`
-    - Select the **+** button to add a new action inside the branch. Select the group of actions with name **Topic management**, then **Go to another topic**, and then select the topic with name `Review an Opportunity`
+    - Select the **+** button to add a new action inside the branch. Select the group of actions with name **Topic management**, then **Go to another topic**, and then select the topic with name `Review Opportunity Details`
 
 1. **all Other Conditions Branch:**
 
