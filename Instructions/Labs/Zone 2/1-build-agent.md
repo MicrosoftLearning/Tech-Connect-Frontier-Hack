@@ -108,6 +108,7 @@ Now select the **Settings** command in the upper right corner of the screen and 
 Select **Save** to update the settings and to ensure that only the knowledge base explicitly provided to the agent will be used when processing user's prompts.
 
 Your "Opportunity Review Advisor" agent is now ready to be enhanced with intelligent topic routing capabilities.
-Close the settings panel selecting the **X** icon in the upper right corner.
+
+Close the Settings panel by selecting the **X** icon in the upper right corner.
 
 You may now move on to the next task in Zone 2, **Configure Topic flows for your agent**.
