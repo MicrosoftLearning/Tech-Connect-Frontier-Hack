@@ -2,7 +2,7 @@
 
 Up to this point, you’ve followed a guided path to build and wire up your agent. Now it’s your turn.
 
-**With your group**, design and implement **one meaningful enhancement** to your agent that goes beyond the flows you were given.
+**With your group**, design and implement **one meaningful enhancement** to your agent that goes beyond its current capabilities.
 
 Your enhancement could include (but is not limited to):
 
@@ -21,10 +21,10 @@ Your solution should:
 - Remain **data-grounded** (do not infer or invent missing information)  
 - Improve how the agent supports a real customer or seller conversation  
 
-When you’re finished, test your agent and be prepared to explain **as a group**:
+When you’re finished, test your agent and be prepared to share **as a group**:
 
 - What you added  
 - Why you added it  
 - What problem it solves  
 
-This challenge is about judgment, tradeoffs, and design—not just wiring things together.
+This challenge is about judgment, tradeoffs, and design - not just wiring things together.
