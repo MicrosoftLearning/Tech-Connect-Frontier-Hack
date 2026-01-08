@@ -97,11 +97,11 @@ Ensure that the following settings are configured for optimal performance:
 
 Now select the **Settings** command in the upper right corner of the screen and under the **Generative AI** section of settings, ensure the following settings:
 
-- **Use generative AI orchestration for your agent's responses**: Enabled
+- **Use generative AI orchestration for your agent's responses**: Yes
     ![Screenshot your agent's model.](../Media/orchestration.png)
 
-- **Use general knowledge**: Disabled
-- **Use information from the web**: Disabled
+- **Use general knowledge**: Off
+- **Use information from the web**: Off
 
     ![Screenshot your agent's model.](../Media/Knowledge.png)
 
