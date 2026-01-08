@@ -31,7 +31,7 @@ Select **Save** in the upper right corner of the topic designer to save the curr
     ![Screenshot of child topic.](../Media/endtopics.png)
 
 1. Select **Save** in the upper right corner of the topic designer to save the current topic.
-1. Repeat steps 1-7 to create a second child topic named `Review Opportunity Details`, with the message: `Great, you'd like me to review an opportunity.`.
+1. Repeat steps 1-7 to create a new topic named `Review Opportunity Details`, with the message: `Great, you'd like me to review an opportunity.`.
 
 Below you can see what the `Summarize an Opportunity` topic should look like:
 
