@@ -1,8 +1,18 @@
-## Finalize your topics
+# Finalize your topics
 
-### Step 1: Adding Generative Answers to the Summarize an Opportunity Topic
+In this task, you will add **data-grounded generative responses** to your topic flows.
 
-1. Navigate to the **Topics** tab. You should see the topics created previously. Select, `Summarize an Opportunity` to open the topic designer.
+The goal is not freeform generation, but **structured outputs** that:
+
+- Rely only on the provided dataset
+- Surface missing or incomplete information
+- Produce consistent, explainable results
+
+Although the examples focus on opportunity records, the same generative patterns can be reused for other data types without changing the routing architecture.
+
+## Step 1: Adding Generative Answers to the Summarize an Opportunity Topic
+
+1. Navigate to the **Topics** tab. You should see the topics created previously. Select **Summarize an Opportunity** to open the topic designer.
 
 1. Under the existing message action, select the **+** command to add a new action.
 
@@ -10,7 +20,7 @@
 
 1. In the question box, enter: `What opportunity would you like to talk about?`.
 
-1. Select where it says **Multiple Choice options** and from the list of options that appear, select **User's entire response** 
+1. Select where it says **Multiple Choice options** and from the list of options that appear, select **User's entire response**
 
     ![screenshot showing new option](../Media/usersresponse.png)
 
@@ -48,18 +58,18 @@
 
     - **Knowledge sources**
         - **Search only selected sources**: enabled
-        - Select the .csv file you uploaded in lab 1
+        - Select the CRM_Synthetic_Data.xlsx file you uploaded in lab 1
         - **Web search**: disabled
 
         ![screenshot showing generative properties](../Media/creategenproperties.png)
 
 1. Select **Save** in the upper right corner of the topic designer to save the Topic.
 
-### Step 2: Adding Generative Answers to the Review Opportunity Details Topic
+## Step 2: Adding Generative Answers to the Review Opportunity Details Topic
 
-1. Follow steps 1-9 from Step 1, but this time in the **Review Opportunity Details** topic.
+1. Follow the same steps from **Step 1** to add a generative answers action, but this time in the **Review Opportunity Details** topic.
 
-1. Once you're at the **Create generative answers** action, input the following PowerFx expression, and select **insert**:
+1. Once you're at the **Create generative answers** action, input the following PowerFx expression, and select **Insert**:
 
     ```plaintext
     "Using the CRM dataset, retrieve the row for this exact Opportunity Name: "
@@ -103,14 +113,14 @@
 
     - **Knowledge sources**
         - **Search only selected sources**: enabled
-        - Select the .csv file you uploaded in lab 1
+        - Select the CRM_Synthetic_Data.xlsx file you uploaded in lab 1
         - **Web search**: disabled
 
         ![screenshot showing generative properties](../Media/creategenproperties.png)
 
 1. Select **Save** in the upper right corner of the topic designer to save the Topic.
 
-### Step 5: Test your agents generative answers
+## Step 3: Test your agent’s generative answers
 
 If the **Test your agent** pane is not already open, select the **Test** button in the upper right corner of the agent designer to open it.
 
@@ -118,7 +128,7 @@ If the **Test your agent** pane is not already open, select the **Test** button 
 
 In the **Test your agent** pane, select the **+** icon to **Start a new test session**.
 
-#### Test 1: Summarize an Opportunity
+**Test 1: Summarize an Opportunity**:
 
 Enter the following prompts in the test pane:
 
@@ -132,7 +142,7 @@ Walton Group – AI Deployment
 
 **Expected results**: A response that contains suggested risk level, risk drivers, data gaps, and recommended next steps based on the opportunity details.
 
-#### Test 2: Review Opportunity Details
+**Test 2: Review Opportunity Details**:
 
 Enter the following prompt in the test pane:
 
@@ -148,4 +158,4 @@ Hunter Ltd – AI Deployment
 
 ![screenshot showing testing results.](../Media/expectedresults.png)
 
-You may now proceed to the next task in zone 2, **Challenge: Go beyond the script**
+➡️ Proceed to the next task in Zone 2: **Challenge: Go Beyond the Script**

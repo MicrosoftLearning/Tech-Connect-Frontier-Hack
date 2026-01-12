@@ -1,6 +1,22 @@
-## Configure topic flows for your agent
+# Configure topic flows for your agent
 
-### Step 1: Create the Intent Analysis Topic
+In this task, you will introduce **intent-based routing** into your agent.
+
+Rather than responding the same way to every prompt, your agent will:
+
+- Analyze what the user is asking for
+- Decide how to respond
+- Route the conversation to the appropriate topic
+
+**Core design goals**
+
+- Separate intent analysis from response generation
+- Keep routing logic centralized
+- Make topic behavior easy to extend later
+
+The guided steps use two response styles—summary and details—but the same routing pattern can support additional scenarios or entities.
+
+## Step 1: Create the Intent Analysis Topic
 
 First, create the main topic that will be used for intelligent routing:
 
@@ -9,15 +25,16 @@ First, create the main topic that will be used for intelligent routing:
 3. Select **Untitled** in the top left corner and rename the topic to `Intent Analysis`
 4. Under **Trigger** in the **Describe what the topic does** section, copy the following description:
 
-```text
-Analyzes user messages to determine development approach preference and routes to appropriate topics. Trigger phrases can be: "Can you provide an Opportunity summary?", "Can you review the details of a Customer Opportunity?".
-```
+    ```text
+    Analyzes user messages to determine intent and routes the conversation to the appropriate topic.
+    Trigger phrases can include: "Can you provide an opportunity summary?" or "Can you review the details of a customer opportunity?"
+    ```
 
-![Screenshot analysis topic.](../Media/intent_analysis.png)
+    ![Screenshot analysis topic.](../Media/intent_analysis.png)
 
 Select **Save** in the upper right corner of the topic designer to save the current topic.
 
-### Step 2: Create child topics
+## Step 2: Create child topics
 
 1. Navigate back to the list of **Topics** and create a new topic from blank.
 1. Name the new topic: `Summarize an Opportunity`.
@@ -37,7 +54,7 @@ Below you can see what the `Summarize an Opportunity` topic should look like:
 
 ![Screenshot of child topic.](../Media/summarize_topic.png)
 
-### Step 3: Use AI Prompt Builder
+## Step 3: Use AI Prompt Builder
 
 Open the **Intent Analysis** topic. Now we will add the **New Prompt** action to the topic in order to leverage the **AI Builder** capabilities.
 
@@ -99,7 +116,7 @@ Open the **Intent Analysis** topic. Now we will add the **New Prompt** action to
 
     ![Screenshot showing text option.](../Media/textoption.png)
 
-1. When configuring the input field, name the field as `user's message` and provide the following **Sample data**: `I want to summzarize customer opportunity data`.
+1. When configuring the input field, name the field as `user's message` and provide the following **Sample data**: `I want to summarize customer opportunity data`.
 
     ![screenshot showing text option details.](../Media/users_message.png)
 
@@ -133,7 +150,7 @@ Open the **Intent Analysis** topic. Now we will add the **New Prompt** action to
 
 1. Select **Save** in the upper right corner of the topic designer to save the current topic.
 
-### Step 4: Build the conversation flow
+## Step 4: Build the conversation flow
 
 1. At the end of the **Intent Analysis** topic, right after **Prompt** action, Insert a new action for **Set a variable value**, under the group **Variable management**.
 
@@ -170,11 +187,11 @@ Open the **Intent Analysis** topic. Now we will add the **New Prompt** action to
     - Set the condition to **is equal to** and set the value to compare to `details`
     - Select the **+** button to add a new action inside the branch. Select the group of actions with name **Topic management**, then **Go to another topic**, and then select the topic with name `Review Opportunity Details`
 
-1. **all Other Conditions Branch:**
+1. **All Other Conditions Branch:**
 
     - Under the **All other conditions** action, add an new action to **Send a message** and write the following message: `Sorry, your input was unclear. Please try again.`
 
-1. After the conditional branches, add an action to **End current topic**, which is available under **Topic management** actions.
+1. After the conditional branches, add a action to **End current topic**, which is available under **Topic management** actions.
 
     This is how your conditions should look like once completed:
 
@@ -182,13 +199,13 @@ Open the **Intent Analysis** topic. Now we will add the **New Prompt** action to
 
 1. Select **Save** to save the updates to the **Intent Analysis** topic.
 
-### Step 5: Test the conversation flow
+## Step 5: Test the conversation flow
 
 If the **Test your agent** pane is not already open, select the **Test** button in the upper right corner of the agent designer to open it.
 
 ![screenshot showing test agent pane.](../Media/testagent.png)
 
-**Test 1: Summarize an Opportunity**
+**Test 1: Summarize an Opportunity**:
 
 Enter the following prompt in the test pane:
 
@@ -196,7 +213,7 @@ Enter the following prompt in the test pane:
 I'd like to summarize a customer opportunity
 ```
 
-**test 2: Review Opportunity Details**
+**test 2: Review Opportunity Details**:
 
 Enter the following prompt in the test pane:
 
@@ -208,4 +225,4 @@ I'd like to review the details for a customer opportunity
 
 ![screenshot showing testing results.](../Media/expectedresults.png)
 
-You may now move on to the next task in Zone 2, **Finalize your topics**.
+➡️ Proceed to the next task in Zone 2: **Finalize your topics**

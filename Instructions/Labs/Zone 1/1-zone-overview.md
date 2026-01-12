@@ -22,7 +22,7 @@ You are provided with a **synthetic business dataset** containing multiple types
 
 Treat it like a messy real-world export: useful, but incomplete.
 
-This file can be found on your desktop within the **Sample Docs** folder as `CRM_Synthetic_Data.xlsx`.
+This file can be found on your desktop within the **Sample Docs** folder as **CRM_Synthetic_Data.xlsx**.
 
 ![Screenshot showing same docs folder.](../Media/sampledocs.png)
 

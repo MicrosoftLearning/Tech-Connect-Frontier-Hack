@@ -1,23 +1,30 @@
-## Create a New Agent in Copilot Studio
+# Create a New Agent in Copilot Studio
 
-### Step 1: Access Microsoft Copilot Studio
+In this task, you will create the base agent that all topic logic in Zone 2 will build upon.
 
-- Open the Edge browser and navigate to +++https://copilotstudio.microsoft.com+++ and login with the following suggested Microsoft 365 work or school account:
+The configuration here is intentionally minimal. You will extend this agent through topics and routing logic in later steps.
 
-**Username: +++@lab.CloudPortalCredential(User1).Username+++**
+**What you are defining**
 
-For the **user's password**, provide the following value:
+- A clear agent purpose
+- A constrained knowledge scope
+- A foundation for reasoning and routing
 
-**Password: +++@lab.CloudPortalCredential(User1).Password+++**
+This agent is designed to be **data-grounded**, predictable, and extensible.
 
-> [!TIP]
-> If the login UI prompts you for the user's **temporary password**, provide the following value:
-> 
-> **Temporary Access Pass: +++@lab.CloudPortalCredential(User1).AccessToken+++**
+## Step 1: Access Microsoft Copilot Studio
 
-- Wait between 10 and 15 seconds for the process to configure your personal developer environment to start. You will see a dialog informing you about the ongoing process of creating your personal environment.
+- Open the Edge browser and navigate to +++https://copilotstudio.microsoft.com+++ and login with the following account details:
 
-### Step 2: Create the agent
+     - **Username: +++@lab.CloudPortalCredential(User1).Username+++**
+     - **Password: +++@lab.CloudPortalCredential(User1).Password+++**
+
+    > [!TIP]
+    > If the login UI prompts you for the user's **temporary password**, provide the following value: **+++@lab.CloudPortalCredential(User1).AccessToken+++**
+
+- Wait 10–15 seconds for the process to begin configuring your personal developer environment.
+
+## Step 2: Create the agent
 
 Once you are in Copilot Studio, the tool will start with the agent creation wizard. Select **Configure** to switch to the agent configuration. If you cancel the wizard, select **Create** in the left navigation menu of Copilot Studio, then choose **+ New agent** to create a new agent and select **Configure** in the agent creation wizard.
 
@@ -54,25 +61,25 @@ Always base your responses on the CRM data provided. Do not infer, assume, or ge
 
 ![Screenshot of Name, Description, and Instructions.](../Media/Name_description.png)
 
-Select **Create** to create your new agent. 
+Select **Create** to create your new agent.
 
 The agent will be provisioned. Wait for the alert, "Your agent has been provisioned" or for the **Publish** button to become enabled to proceed with configuring your agent.
 
-### Step 3: Attach knowledge
+## Step 3: Attach knowledge
 
- Scroll down to the **Knowledge** section, select **+ Add knowledge**.
+ Scroll down to the **Knowledge** section, select **+ Add knowledge**. You will reuse the same CRM_Synthetic_Data.xlsx dataset from Zone 1; no new data sources are introduced in this task.
 
-1. Select **Select to browse**
+1. Select **"Select to browse"**
 1. In file explorer, select **Desktop**
-1. Select **Local Disk (C:)**
-1. Select the file named **CRM_Opportunities.csv**
+1. Select the folder **Sample docs**
+1. Select the file named **CRM_Synthetic_Data.xlsx**
 1. Select **Add to Agent**
 1. A message will appear indicating that the file is being uploaded. This window will close after a few moments.
 
-> **Note:**
+> [!NOTE]
 > The process of uploading a file in this way may take up to 15 minutes. A status of **In Progress** will be shown next to the file name. You may move on to the next tasks while the file is being uploaded.
 
-### Step 4: Build initial conversation starters
+## Step 4: Build initial conversation starters
 
 In this task, you are going to configure some conversation starters, which will provide users with suggested prompts when they start using your agent.
 
@@ -111,4 +118,4 @@ Your "Opportunity Review Advisor" agent is now ready to be enhanced with intelli
 
 Close the Settings panel by selecting the **X** icon in the upper right corner.
 
-You may now move on to the next task in Zone 2, **Configure Topic flows for your agent**.
+➡️ Proceed to the next task in Zone 2: **Configure topic flows for your agent**.
