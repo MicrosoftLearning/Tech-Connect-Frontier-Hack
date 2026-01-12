@@ -21,7 +21,7 @@ For the **user's password**, provide the following value:
 
 Once you are in Copilot Studio, the tool will start with the agent creation wizard. Select **Configure** to switch to the agent configuration. If you cancel the wizard, select **Create** in the left navigation menu of Copilot Studio, then choose **+ New agent** to create a new agent and select **Configure** in the agent creation wizard.
 
-Once you are in the **Configure** panel, define your new agent with the following settings (you can copy and paste the values):
+Once you are in the **Configure** panel, define your new agent with the following (you can copy and paste the values):
 
 - **Name**:
 
