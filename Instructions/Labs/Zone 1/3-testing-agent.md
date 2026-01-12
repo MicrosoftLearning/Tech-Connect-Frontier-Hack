@@ -16,7 +16,9 @@ To spot-check and validate the agent’s answers, open **CRM_Synthetic_Data.xlsx
 
 ![Screenshot of uploaded files.](../Media/uploadedfiles.png)
 
-As you test, watch for answers that seem surprising or incorrect.
+Compare results and assumptions with your group as you test — differences often reveal gaps in instructions.
+
+As you test, pay attention to answers that seem surprising or incorrect.
 
 If the data appears to exist in the file but the agent says it does not, that is a signal that:
 - The agent may be using the wrong assumptions about how records relate

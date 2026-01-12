@@ -14,7 +14,7 @@ By the end of this zone, you will have:
 
 - A retrieval-based agent that is grounded in the provided sample dataset  
 - An agent that can answer realistic portfolio-level questions  
-- An agent that doesn't fabricate answers when data is missing
+- An agent that clearly calls out missing or unclear data instead of fabricating answers
 
 ## What you’re working with
 
@@ -22,7 +22,9 @@ You are provided with a **synthetic business dataset** containing multiple types
 
 Treat it like a messy real-world export: useful, but incomplete.
 
-This file can be found on your desktop within the **Sample Docs** folder as `CRM_Synthetic_Data.csv`.
+This file can be found on your desktop within the **Sample Docs** folder as `CRM_Synthetic_Data.xlsx`.
+
+![Screenshot showing same docs folder.](../Media/sampledocs.png)
 
 ## How you can approach this zone
 
@@ -36,7 +38,7 @@ If you are new to building agents, or want a structured path, continue with the 
 
 If you are already comfortable with Copilot agents, you may skip the step-by-step instructions and build your agent directly.
 
-Your agent must still pass the Zone 1 exit criteria before you move on, so be sure to complete the **Testing** and **Outcomes** steps once your agent is built.
+Your agent must still pass the Zone 1 exit criteria before you move on, so be sure to complete the **Testing Your Agent** and **Outcomes & Next Steps** tasks once your agent is built.
 
 No matter which path you take, you will validate your work using the same testing steps and exit criteria before moving on.
 
