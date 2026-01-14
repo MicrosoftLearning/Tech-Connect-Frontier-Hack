@@ -4,7 +4,7 @@
 
 To get started with configuring your agent, open Microsoft 365 Copilot.
 
-1. Open the Edge browser and navigate to https://m365.cloud.microsoft/chat and sign in using the following Microsoft 365 work or school account:
+1. Open the Edge browser and navigate to `https://m365.cloud.microsoft/chat` and sign in using the following Microsoft 365 work or school account:
 
     - **Username: +++@lab.CloudPortalCredential(User1).Username+++**
     - **Password: +++@lab.CloudPortalCredential(User1).Password+++**
