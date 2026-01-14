@@ -14,7 +14,7 @@ This agent is designed to be **data-grounded**, predictable, and extensible.
 
 ## Step 1: Access Microsoft Copilot Studio
 
-- Open the Edge browser and navigate to +++https://copilotstudio.microsoft.com+++ and login with the following account details:
+- Open the Edge browser and navigate to `https://copilotstudio.microsoft.com` and login with the following account details:
 
      - **Username: +++@lab.CloudPortalCredential(User1).Username+++**
      - **Password: +++@lab.CloudPortalCredential(User1).Password+++**
@@ -26,9 +26,12 @@ This agent is designed to be **data-grounded**, predictable, and extensible.
 
 ## Step 2: Create the agent
 
-Once you are in Copilot Studio, the tool will start with the agent creation wizard. Select **Configure** to switch to the agent configuration. If you cancel the wizard, select **Create** in the left navigation menu of Copilot Studio, then choose **+ New agent** to create a new agent and select **Configure** in the agent creation wizard.
+Once you are in Copilot Studio, the tool will start with the agent creation wizard. Select **Configure** to manually create your agent. 
 
-Once you are in the **Configure** panel, define your new agent with the following (you can copy and paste the values):
+> [!TIP]
+> If at any time you want to start over with configuring your agent, select the **ellipses (...)** \> **Restart agent creation** \> **Restart**.
+
+Once you are in the **Configure** tab, define your new agent with the following (you can copy and paste the values):
 
 - **Name**:
 
@@ -70,7 +73,7 @@ The agent will be provisioned. Wait for the alert, "Your agent has been provisio
  Scroll down to the **Knowledge** section, select **+ Add knowledge**. You will reuse the same CRM_Synthetic_Data.xlsx dataset from Zone 1; no new data sources are introduced in this task.
 
 1. Select **"Select to browse"**
-1. In file explorer, select **Desktop**
+1. In File Explorer, select **Desktop**
 1. Select the folder **Sample docs**
 1. Select the file named **CRM_Synthetic_Data.xlsx**
 1. Select **Add to Agent**
@@ -98,14 +101,16 @@ For now, this is all you need to do in this step. You will revisit this section 
 
 Ensure that the following settings are configured for optimal performance:
 
-- In the agent's **Select your Agent's model** section, ensure that the **GPT-5 Chat** model is selected for the best natural language understanding capabilities.
+- In the agent's **Select your agent's model** section, ensure that the **GPT-5 Chat** model is selected for the best natural language understanding capabilities.
 
     ![Screenshot your agent's model.](../Media/gptmodel.png)
 
-Now select the **Settings** command in the upper right corner of the screen and under the **Generative AI** section of settings, ensure the following settings:
+Select **Settings** in the upper right corner of the screen. Under the **Orchestration** section, ensure the following settings:
 
 - **Use generative AI orchestration for your agent's responses**: Yes
     ![Screenshot your agent's model.](../Media/orchestration.png)
+
+Scroll down to the **Knowledge** section and ensure the following settings:
 
 - **Use general knowledge**: Off
 - **Use information from the web**: Off
