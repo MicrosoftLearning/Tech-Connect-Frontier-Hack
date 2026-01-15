@@ -37,6 +37,7 @@
 
 > [!TIP]
 > When editing workflows in Vs Code, you must first switch from **Playground** mode to **YAML**. Once your edits are completed within the YAML editor, select **Deploy** next to the workflow name:
+>
 > ![Deploy workflow](../Media/deployworkflow.png)
 
 ## Explore Azure AI Foundry and AI Toolkit
