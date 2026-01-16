@@ -59,12 +59,4 @@ You may also notice the **AI Toolkit** extension in VS Code. This extension allo
 - Local models (such as Ollama)
 - Non-Azure-native agent workflows
 
-These models are useful for experimentation and prototyping, but they aren't deployed into Azure AI Foundry projects. As a result, they can't be selected or used by Azure AI Foundry agents or workflows created in this lab.
-
-For this lab, we focused on **Azure-hosted models deployed into your Foundry project** so that:
-
-- Agents can access deployed models securely
-- Tooling works consistently across the portal and VS Code
-- Scenarios align with real-world Azure AI deployments
-
 ➡️ Proceed to the next task in Zone 3: **Challenge: Design for the Real World**
