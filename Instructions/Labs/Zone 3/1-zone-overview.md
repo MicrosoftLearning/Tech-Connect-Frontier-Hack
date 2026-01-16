@@ -4,7 +4,13 @@
 
 In Zone 3, you'll design and orchestrate an **agent system** using **Azure AI Foundry**.
 
-This zone brings together everything you built in earlier zones:
+Real-world agent systems are rarely a single agent solving a single problem.
+
+They are systems of responsibility — agents, workflows, and data working together with clear boundaries.
+
+This zone shifts your focus from building agents to designing agent systems.
+
+It brings together everything you built in earlier zones:
 
 - **Zone 1:** Data grounding and retrieval  
 - **Zone 2:** Reasoning, routing, and conversation flow  
@@ -23,6 +29,8 @@ By the end of this zone, you'll have:
 You aren't expected to fully build or automate everything.
 
 ## How to approach this zone
+
+You are not optimizing for completeness here. You are optimizing for design clarity and plausibility.
 
 This zone has **two parts**:
 

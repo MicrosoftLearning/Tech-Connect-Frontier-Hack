@@ -4,6 +4,8 @@
 
 In Zone 2, you'll build a **reasoning-driven agent** in Copilot Studio that can analyze user intent and dynamically route conversations to the appropriate topic flow.
 
+This zone is where your agent learns to think before it speaks by separating intent analysis from response generation.
+
 You'll continue using the **same CRM_Synthetic_Data.xlsx dataset from Zone 1**; no new data sources are introduced in this zone.
 
 Unlike Zone 1, which focused on retrieval and grounding, this zone introduces:
@@ -14,7 +16,8 @@ Unlike Zone 1, which focused on retrieval and grounding, this zone introduces:
 - Data-grounded generative responses  
 
 The step-by-step guidance in this zone intentionally focuses on **customer opportunities** as a representative example.  
-The patterns you build here can be extended to other entities in the dataset—or applied to real-world data—without changing the core architecture.
+
+The patterns you build here can be extended to other entities in the dataset — or applied to real-world data — without changing the core architecture.
 
 ## What Success Looks Like
 
@@ -26,7 +29,7 @@ By the end of this zone, you'll have:
 - Topics that generate structured, data-grounded responses  
 - A working agent you can extend beyond the scripted scenario  
 
-This zone is about **reasoning and orchestration**, not automation, or action-taking.
+In this zone, success isn’t measured by what the agent says — but by how it decides what to say.
 
 ## How to Approach This Zone
 

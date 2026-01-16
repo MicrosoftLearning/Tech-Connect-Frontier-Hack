@@ -4,6 +4,8 @@
 
 In this zone, you'll build a **retrieval-based agent** that helps people explore and understand a **portfolio of business records** (for example, accounts, leads, and opportunities) using a provided sample dataset.
 
+Here, you are intentionally not building something impressive. You are building something trustworthy.
+
 In the real world, teams constantly work with messy exports, reports, and spreadsheets to understand what’s happening across their business — whether that’s customers, projects, partners, or work in flight.
 
 Your agent should turn that kind of data into something people can explore through natural language, making it easier to spot patterns, identify gaps, and get oriented without digging through rows and columns.
