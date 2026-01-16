@@ -1,10 +1,10 @@
 # Setup Your Azure AI Foundry Project
 
-In this task, you’ll create a new Azure AI Foundry project that will be used as your baseline throughout Zone 3.
+In this task, you’ll create a new Azure AI Foundry project that is used as your baseline throughout Zone 3.
 
 ## Create a Project in Azure AI Foundry
 
-1. Open the Edge browser and navigate to +++https://ai.azure.com+++
+1. Open the Microsoft Edge browser and navigate to +++https://ai.azure.com+++
 
 1. Select **Sign in** in the top right corner and sign in with the following account details:
 
@@ -12,14 +12,14 @@ In this task, you’ll create a new Azure AI Foundry project that will be used a
     - **Password:** +++@lab.CloudPortalCredential(User1).Password+++
 
         > [!TIP]
-        > If the login UI prompts you for the user's **temporary password**, provide the following value: **+++@lab.CloudPortalCredential(User1).AccessToken+++**
+        > If the sign in UI prompts you for the user's **temporary password**, provide the following value: **+++@lab.CloudPortalCredential(User1).AccessToken+++**
 
 1. After a few moments, you should see an Azure AI Foundry resource displayed under **Keep building with Microsoft Foundry**. Select the resource that starts with **foundry**.
 
     ![Foundry resource image](../Media/foundryresource.png)
 
     > [!NOTE]
-    > The numbers after the text **foundry** will not be the same as shown in the image above. They will be unique to your lab environment.
+    > The numbers after the text **foundry** won't be the same as shown in the image above. They'll be unique to your lab environment.
 
 1. In the **Overview** tab, under **Resource details**, select **Open in management center**.
 
@@ -32,12 +32,12 @@ In this task, you’ll create a new Azure AI Foundry project that will be used a
 
 1. Select **Create**. It may take a few moments for the project to be created.
 
-1. After the project is created, you will be taken to the project overview page. Ensure your user ID appears under **Project users** with a role of **Azure AI User**.
+1. After the project is created, you'll be taken to the project overview page. Ensure your user ID appears under **Project users** with a role of **Azure AI User**.
 
     ![Project users image](../Media/projectusers.png)
 
     > [!IMPORTANT]
-    > If your user ID does not appear, select **+New User** and add your user ID with the role of **Azure AI User**.
+    > If your user ID doesn't appear, select **+New User** and add your user ID with the role of **Azure AI User**.
 
 ## Navigate to the New Azure AI Foundry Portal and Deploy Your First Model
 
@@ -47,7 +47,7 @@ Next, you’ll switch to the new Azure AI Foundry portal to continue the lab.
 
     ![Start building image](../Media/startbuilding.png)
 
-1. You will be taken to the new Azure AI Foundry portal. In the top right corner, you will see several tabs like **Home**, **Discover**, **Build**, and **Operate**. Select the **Discover** tab.
+1. You'll be taken to the new Azure AI Foundry portal. In the top right corner, you'll see several tabs like **Home**, **Discover**, **Build**, and **Operate**. Select the **Discover** tab.
 
     ![Discover tab image](../Media/discovertab.png)
 
@@ -63,7 +63,7 @@ Next, you’ll switch to the new Azure AI Foundry portal to continue the lab.
 
     ![Direct from Azure image](../Media/directfromazure.png)
 
-1. Select **Deploy** from the top right corner, then select **Default setting**. You will be brought to the Agent playground once the model is deployed.
+1. Select **Deploy** from the top right corner, then select **Default setting**. You'll be brought to the Agent playground once the model is deployed.
 
 ## Create Your First Agent in Azure AI Foundry
 
@@ -104,7 +104,7 @@ Next, you’ll switch to the new Azure AI Foundry portal to continue the lab.
        If match_found=false, set record to {}.
        ```
 
-1. Under **tools** select **Upload files**. This will allow the agent to ground its responses in the provided CRM dataset.
+1. Under **tools** select **Upload files**. This allows the agent to ground its responses in the provided CRM dataset.
 
 1. In the **Adding Files** window that appears, change the name and upload the file as follows:
 
@@ -134,7 +134,7 @@ Next, you’ll switch to the new Azure AI Foundry portal to continue the lab.
 
 1. In the Azure AI Foundry portal, select the **Workflows** tab from the left navigation pane.
 
-1. Click on **Create**, then select **Blank workflow**.
+1. Select **Create**, then select **Blank workflow**.
 
     ![Create workflow image](../Media/createblankworkflow.png)
 
@@ -167,7 +167,7 @@ As a group, you will:
 
 All challenge work can be completed **entirely in the Azure AI Foundry portal**.
 
-If you prefer working in code, you may optionally configure the Azure AI Foundry extension in Visual Studio Code. VS Code can be helpful for testing and inspecting agents or workflows, but it is not required.
+If you prefer working in code, you may optionally configure the Azure AI Foundry extension in Visual Studio Code. VS Code can be helpful for testing and inspecting agents or workflows, but it isn't required.
 
 ➡️ **Optional setup:** Proceed to **Use Azure AI Foundry in Visual Studio Code**  
 ➡️ **Skip ahead:** Continue to **Challenge: Design for the Real World**

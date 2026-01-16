@@ -4,13 +4,13 @@
 
 To get started with configuring your agent, open Microsoft 365 Copilot.
 
-1. Open the Edge browser and navigate to `https://m365.cloud.microsoft/chat` and sign in using the following Microsoft 365 work or school account:
+1. Open the Microsoft Edge browser and navigate to `https://m365.cloud.microsoft/chat` and sign in using the following Microsoft 365 work or school account:
 
     - **Username: +++@lab.CloudPortalCredential(User1).Username+++**
     - **Password: +++@lab.CloudPortalCredential(User1).Password+++**
 
         > [!TIP]
-        > If the login UI prompts you for the user's **temporary password**, provide the following value:
+        > If the sign in UI prompts you for the user's **temporary password**, provide the following value:
         >
         > **Temporary Access Pass: +++@lab.CloudPortalCredential(User1).AccessToken+++**
 
@@ -32,7 +32,7 @@ Good examples:
 - `Customer Data Explorer`
 - `Pipeline Review Assistant`
 
-Once named, provide a brief description of the agent’s purpose. This is what users will see, so keep it short and focused on what the agent helps them do.
+Once named, provide a brief description of the agent’s purpose. This is what users see, so keep it short and focused on what the agent helps them do.
 
 ## Step 3: Provide Instructions
 
@@ -44,7 +44,7 @@ Your instructions should make it clear that the agent:
 
 - Uses the provided dataset as its primary source  
 - Is read-only  
-- Does not invent missing information  
+- Doesn't invent missing information  
 - Calls out ambiguity  
 - Keeps responses concise and grounded  
 

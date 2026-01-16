@@ -1,8 +1,8 @@
 # Create a New Agent in Copilot Studio
 
-In this task, you will create the base agent that all topic logic in Zone 2 will build upon.
+In this task, you'll create the base agent that all topic logic in Zone 2 will build upon.
 
-The configuration here is intentionally minimal. You will extend this agent through topics and routing logic in later steps.
+The configuration here's intentionally minimal. You'll extend this agent through topics and routing logic in later steps.
 
 **What you are defining**:
 
@@ -14,19 +14,19 @@ This agent is designed to be **data-grounded**, predictable, and extensible.
 
 ## Step 1: Access Microsoft Copilot Studio
 
-- Open the Edge browser and navigate to `https://copilotstudio.microsoft.com` and login with the following account details:
+- Open the Microsoft Edge browser and navigate to `https://copilotstudio.microsoft.com` and sign in with the following account details:
 
      - **Username: +++@lab.CloudPortalCredential(User1).Username+++**
      - **Password: +++@lab.CloudPortalCredential(User1).Password+++**
 
     > [!TIP]
-    > If the login UI prompts you for the user's **temporary password**, provide the following value: **+++@lab.CloudPortalCredential(User1).AccessToken+++**
+    > If the sign in UI prompts you for the user's **temporary password**, provide the following value: **+++@lab.CloudPortalCredential(User1).AccessToken+++**
 
 - Wait 10–15 seconds for the process to begin configuring your personal developer environment.
 
 ## Step 2: Create the Agent
 
-Once you are in Copilot Studio, the tool will start with the agent creation wizard. Select **Configure** to manually create your agent.
+Once you are in Copilot Studio, the tool starts with the agent creation wizard. Select **Configure** to manually create your agent.
 
 > [!TIP]
 > If at any time you want to start over with configuring your agent, select the **ellipses (...)** \> **Restart agent creation** \> **Restart**.
@@ -70,21 +70,21 @@ The agent will be provisioned. Wait for the alert, "Your agent has been provisio
 
 ## Step 3: Attach Knowledge
 
- Scroll down to the **Knowledge** section, select **+ Add knowledge**. You will reuse the same CRM_Synthetic_Data.xlsx dataset from Zone 1; no new data sources are introduced in this task.
+ Scroll down to the **Knowledge** section, select **+ Add knowledge**. You'll reuse the same CRM_Synthetic_Data.xlsx dataset from Zone 1; no new data sources are introduced in this task.
 
 1. Select **"Select to browse"**
 1. In File Explorer, select **Desktop**
 1. Select the folder **Sample docs**
 1. Select the file named **CRM_Synthetic_Data.xlsx**
 1. Select **Add to Agent**
-1. A message will appear indicating that the file is being uploaded. This window will close after a few moments.
+1. A message appears indicating that the file is being uploaded. This window will close after a few moments.
 
 > [!NOTE]
 > The process of uploading a file in this way may take up to 15 minutes. A status of **In Progress** will be shown next to the file name. You may move on to the next tasks while the file is being uploaded.
 
 ## Step 4: Build Initial Conversation Starters
 
-In this task, you are going to configure some conversation starters, which will provide users with suggested prompts when they start using your agent.
+In this task, you're going to configure some conversation starters, which will provide users with suggested prompts when they start using your agent.
 
 Scroll down to the **Suggested prompts** section, select the command **+ Add suggested prompts**, and add these helpful prompts:
 
@@ -93,7 +93,7 @@ Scroll down to the **Suggested prompts** section, select the command **+ Add sug
 
 Select **Save**.
 
-For now, this is all you need to do in this step. You will revisit this section later to add more suggested prompts after you have configured topics for your agent.
+For now, this is all you need to do in this step. You'll revisit this section later to add more suggested prompts after you have configured topics for your agent.
 
 ![Screenshot of suggested prompts.](../Media/suggested_prompts.png)
 

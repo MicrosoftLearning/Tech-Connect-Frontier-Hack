@@ -20,7 +20,7 @@ Compare results and assumptions with your group as you test — differences ofte
 
 As you test, pay attention to answers that seem surprising or incorrect.
 
-If the data appears to exist in the file but the agent says it does not, that is a signal that:
+If the data appears to exist in the file but the agent says it doesn't, that is a signal that:
 - The agent may be using the wrong assumptions about how records relate
 - Or your instructions need to be more explicit about how the data should be interpreted
 

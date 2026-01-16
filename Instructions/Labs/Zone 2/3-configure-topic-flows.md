@@ -1,6 +1,6 @@
 # Configure Topic Flows for Your Agent
 
-In this task, you will introduce **intent-based routing** into your agent.
+In this task, you'll introduce **intent-based routing** into your agent.
 
 Rather than responding the same way to every prompt, your agent will:
 
@@ -14,11 +14,11 @@ Rather than responding the same way to every prompt, your agent will:
 - Keep routing logic centralized
 - Make topic behavior easy to extend later
 
-The guided steps use two response styles—summary and details—but the same routing pattern can support additional scenarios or entities.
+The guided steps use two response styles—summary and details—but the same routing pattern can support other scenarios or entities.
 
 ## Step 1: Create the Intent Analysis Topic
 
-First, create the main topic that will be used for intelligent routing:
+First, create the main topic that is used for intelligent routing:
 
 1. In your "Opportunity Review Advisor" agent, select the **Topics** tab in the upper navigation of the agent designer
 2. Select **+ Add a topic** and select **From blank**
@@ -56,7 +56,7 @@ Below you can see what the `Summarize an Opportunity` topic should look like:
 
 ## Step 3: Use AI Prompt Builder
 
-Open the **Intent Analysis** topic. Now we will add the **New Prompt** action to the topic in order to leverage the **AI Builder** capabilities.
+Open the **Intent Analysis** topic. Now we'll add the **New Prompt** action to the topic in order to use the **AI Builder** capabilities.
 
 1. Select the **+** command to add a new action to the topic
 1. Select **Add a tool** to open the list of tools
@@ -64,7 +64,7 @@ Open the **Intent Analysis** topic. Now we will add the **New Prompt** action to
 
     ![Screenshot of new prompt tool.](../Media/newprompt.png)
 
-1. A new dialog window shows up allowing you to build a new prompt. Click where it says **Custom prompt..** and rename the new prompt. For example name it `User's intent analysis`.
+1. A new dialog window shows up allowing you to build a new prompt. Select where it says **Custom prompt..** and rename the new prompt. For example name it `User's intent analysis`.
 
     ![Screenshot of AI Builder.](../Media/aibuilder.png)
 
@@ -124,7 +124,7 @@ Open the **Intent Analysis** topic. Now we will add the **New Prompt** action to
 
     ![screenshot showing JSON output selected.](../Media/json.png)
 
-1. Now, select **Test** to validate the output of the prompt using the sample data that you just configured for the input field. You should see a response similar to the one below:
+1. Now, select **Test** to validate the output of the prompt using the sample data that you configured for the input field. You should see a response similar to the one below:
 
     ![screenshot showing JSON output selected.](../Media/intentjson.png)
 
@@ -142,7 +142,7 @@ Open the **Intent Analysis** topic. Now we will add the **New Prompt** action to
 
     ![screenshot showing create new variable.](../Media/createnew.png)
 
-1. Copilot Studio will create a new variable with name **Var1**. Select the name of the variable to open the variable properties panel.
+1. Copilot Studio creates a new variable with name **Var1**. Select the name of the variable to open the variable properties panel.
 
 1. In the Variable properties panel, rename the variable from **Var1** to `IntentPrediction`.
 
@@ -173,7 +173,7 @@ Open the **Intent Analysis** topic. Now we will add the **New Prompt** action to
 1. **Summary Branch:**
 
     - Rename the new branch `Summary`
-    - Click on **Select a variable** and select the `approach` variable
+    - Select on **Select a variable** and select the `approach` variable
     - Set the condition to **is equal to** and set the value to compare to `summary`
     - Select the **+** button to add a new action inside the branch. Select the group of actions with name **Topic management**, then **Go to another topic**, and then select the topic with name `Summarize an Opportunity`
 
@@ -183,7 +183,7 @@ Open the **Intent Analysis** topic. Now we will add the **New Prompt** action to
 
     - Select the **+** icon just before the conditional block and select **Add a condition** to add a new branch
     - Rename the new branch `Details`
-    - Click on  **Select a variable** and select the `approach` variable
+    - Select on  **Select a variable** and select the `approach` variable
     - Set the condition to **is equal to** and set the value to compare to `details`
     - Select the **+** button to add a new action inside the branch. Select the group of actions with name **Topic management**, then **Go to another topic**, and then select the topic with name `Review Opportunity Details`
 
@@ -191,7 +191,7 @@ Open the **Intent Analysis** topic. Now we will add the **New Prompt** action to
 
     - Under the **All other conditions** action, add an new action to **Send a message** and write the following message: `Sorry, your input was unclear. Please try again.`
 
-1. After the conditional branches, add a action to **End current topic**, which is available under **Topic management** actions.
+1. After the conditional branches, add an action to **End current topic**, which is available under **Topic management** actions.
 
     This is how your conditions should look like once completed:
 
@@ -201,7 +201,7 @@ Open the **Intent Analysis** topic. Now we will add the **New Prompt** action to
 
 ## Step 5: Test the Conversation Flow
 
-If the **Test your agent** pane is not already open, select the **Test** button in the upper right corner of the agent designer to open it.
+If the **Test your agent** pane isn't already open, select the **Test** button in the upper right corner of the agent designer to open it.
 
 ![screenshot showing test agent pane.](../Media/testagent.png)
 

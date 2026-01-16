@@ -1,8 +1,8 @@
 # Finalize Your Topics
 
-In this task, you will add **data-grounded generative responses** to your topic flows.
+In this task, you'll add **data-grounded generative responses** to your topic flows.
 
-The goal is not freeform generation, but **structured outputs** that:
+The goal isn't freeform generation, but **structured outputs** that:
 
 - Rely only on the provided dataset
 - Surface missing or incomplete information
@@ -122,7 +122,7 @@ Although the examples focus on opportunity records, the same generative patterns
 
 ## Step 3: Test your Agent’s Generative Answers
 
-If the **Test your agent** pane is not already open, select the **Test** button in the upper right corner of the agent designer to open it.
+If the **Test your agent** pane isn't already open, select the **Test** button in the upper right corner of the agent designer to open it.
 
 ![screenshot showing test agent pane.](../Media/testagent.png)
 

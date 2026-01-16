@@ -7,7 +7,7 @@
 
 1. Select **VS Code** from the desktop.
 
-1. The **AI Toolkit** and **Azure AI Foundry** extensions should already be pre-installed. If not, install them from the Extensions view (`Ctrl+Shift+X`) by searching for `Azure AI Foundry`.
+1. The **AI Toolkit** and **Azure AI Foundry** extensions should already be preinstalled. If not, install them from the Extensions view (`Ctrl+Shift+X`) by searching for `Azure AI Foundry`.
 
     ![AI toolkit and Azure AI Foundry extensions](../Media/foundryextension.png)
 
@@ -19,7 +19,7 @@
     - **Password:** +++@lab.CloudPortalCredential(User1).Password+++
 
         > [!TIP]
-        > If the login UI prompts you for the user's **temporary password**, provide the following value: **+++@lab.CloudPortalCredential(User1).AccessToken+++**
+        > If the sign in UI prompts you for the user's **temporary password**, provide the following value: **+++@lab.CloudPortalCredential(User1).AccessToken+++**
 
 1. If prompted to **Sign in to all apps, websites, and services on this device**, select **No, this app only**.
 
@@ -59,7 +59,7 @@ You may also notice the **AI Toolkit** extension in VS Code. This extension allo
 - Local models (such as Ollama)
 - Non-Azure-native agent workflows
 
-These models are useful for experimentation and prototyping, but they are not deployed into Azure AI Foundry projects. As a result, they cannot be selected or used by Azure AI Foundry agents or workflows created in this lab.
+These models are useful for experimentation and prototyping, but they aren't deployed into Azure AI Foundry projects. As a result, they can't be selected or used by Azure AI Foundry agents or workflows created in this lab.
 
 For this lab, we focused on **Azure-hosted models deployed into your Foundry project** so that:
 

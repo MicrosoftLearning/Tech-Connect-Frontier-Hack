@@ -2,9 +2,9 @@
 
 ## Overview
 
-In Zone 2, you will build a **reasoning-driven agent** in Copilot Studio that can analyze user intent and dynamically route conversations to the appropriate topic flow.
+In Zone 2, you'll build a **reasoning-driven agent** in Copilot Studio that can analyze user intent and dynamically route conversations to the appropriate topic flow.
 
-You will continue using the **same CRM_Synthetic_Data.xlsx dataset from Zone 1**; no new data sources are introduced in this zone.
+You'll continue using the **same CRM_Synthetic_Data.xlsx dataset from Zone 1**; no new data sources are introduced in this zone.
 
 Unlike Zone 1, which focused on retrieval and grounding, this zone introduces:
 
@@ -18,7 +18,7 @@ The patterns you build here can be extended to other entities in the dataset—o
 
 ## What Success Looks Like
 
-By the end of this zone, you will have:
+By the end of this zone, you'll have:
 
 - An agent built in Copilot Studio  
 - A central topic that analyzes user intent  
@@ -26,7 +26,7 @@ By the end of this zone, you will have:
 - Topics that generate structured, data-grounded responses  
 - A working agent you can extend beyond the scripted scenario  
 
-This zone is about **reasoning and orchestration**, not automation or action-taking.
+This zone is about **reasoning and orchestration**, not automation, or action-taking.
 
 ## How to Approach This Zone
 
@@ -138,7 +138,7 @@ Regardless of which path you choose:
 - Compare routing decisions and assumptions  
 - Differences often reveal gaps in prompts or logic  
 
-These insights will be useful during the Zone 2 Challenge.
+These insights are useful during the Zone 2 Challenge.
 
 ## Where to Start
 

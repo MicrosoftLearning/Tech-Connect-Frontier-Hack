@@ -45,7 +45,7 @@ Using the provided sample data:
 
 - Extend your agent  
 - Add or modify workflows  
-- Introduce additional agents if useful  
+- Introduce other agents if useful  
 
 Aim for something that:
 

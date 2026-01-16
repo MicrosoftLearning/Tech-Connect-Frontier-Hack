@@ -2,7 +2,7 @@
 
 ## Overview
 
-In Zone 3, you will design and orchestrate an **agent system** using **Azure AI Foundry**.
+In Zone 3, you'll design and orchestrate an **agent system** using **Azure AI Foundry**.
 
 This zone brings together everything you built in earlier zones:
 
@@ -13,14 +13,14 @@ Rather than focusing on a single agent or scripted scenario, this zone focuses o
 
 ## What success looks like
 
-By the end of this zone, you will have:
+By the end of this zone, you'll have:
 
 - A clearly defined **real-world scenario**
 - At least one **grounded agent** using the provided data
 - A **workflow** that orchestrates agent behavior
 - A design that could realistically extend to real data or systems
 
-You are not expected to fully build or automate everything.
+You aren't expected to fully build or automate everything.
 
 ## How to approach this zone
 

@@ -15,7 +15,7 @@ Your team’s agent system must meet the following requirements before completin
 
 **Stronger (Optional)**:
 
-These are not required, but indicate a more complete or advanced design:
+These aren't required, but indicate a more complete or advanced design:
 
 - Uses **multiple agents** with distinct responsibilities  
 - Implements a **router or intent-based decision point**  
@@ -25,20 +25,20 @@ These are not required, but indicate a more complete or advanced design:
   (for example, an MCP server, Bing search grounding, or another live system in a real-world deployment)  
 - Shows a realistic **end-to-end workflow** from user request to response  
 
-If any of the **required** criteria above are not met, pause here:
+If any of the **required** criteria above aren't met, pause here:
 
 - Clarify the scenario you’re solving  
 - Simplify the agent system design  
 - Reduce scope to a single core interaction  
 - Or ask a coach for guidance  
 
-Do not move on until the required criteria are met.
+Don't move on until the required criteria are met.
 
 ## Next Steps
 
 You’ve completed the **Frontier Hack** 🎉
 
-If you have additional time, feel free to:
+If you have extra time, feel free to:
 
 - Revisit earlier zones and extend your agents
 - Explore a different zone you haven’t tried yet

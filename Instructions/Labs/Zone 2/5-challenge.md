@@ -5,7 +5,7 @@ By this point, you’ve either followed the guided steps or built your own worki
 **With your group**, design and implement **one meaningful enhancement** that goes beyond the current scenario.
 
 >[!IMPORTANT]
-> If you are short on time, you may skip this challenge and proceed directly to **Outcomes & Next Steps**.
+> If you're short on time, you may skip this challenge and proceed directly to **Outcomes & Next Steps**.
 
 ## Challenge Focus (choose one)
 
@@ -42,7 +42,7 @@ Improve the agent’s behavior by adding:
 Your solution should:
 
 - Use the existing **CRM dataset** as its source of truth  
-- Remain **data-grounded** (do not infer or invent missing information)  
+- Remain **data-grounded** (don't infer or invent missing information)  
 - Require **explicit user confirmation** before taking any action  
 - Improve how the agent supports a realistic customer or seller workflow  
 
