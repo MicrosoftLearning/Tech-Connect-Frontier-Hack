@@ -1,4 +1,6 @@
-# Setup a Project in Azure AI Foundry
+# Setup Your Azure AI Foundry Project
+
+In this task, you’ll create a new Azure AI Foundry project that will be used as your baseline throughout Zone 3.
 
 ## Create a Project in Azure AI Foundry
 
@@ -12,9 +14,12 @@
         > [!TIP]
         > If the login UI prompts you for the user's **temporary password**, provide the following value: **+++@lab.CloudPortalCredential(User1).AccessToken+++**
 
-1. After a few moments, you should see an Azure AI Foundry resource displayed under **Keep building with Microsoft Foundry**. Select the resource that starts with **Lab-** and ends with **-foundry**.
+1. After a few moments, you should see an Azure AI Foundry resource displayed under **Keep building with Microsoft Foundry**. Select the resource that starts with **foundry**.
 
     ![Foundry resource image](../Media/foundryresource.png)
+
+    > [!NOTE]
+    > The numbers after the text **foundry** will not be the same as shown in the image above. They will be unique to your lab environment.
 
 1. In the **Overview** tab, under **Resource details**, select **Open in management center**.
 
@@ -25,7 +30,7 @@
     - **Project Name**: `<user-id>-foundry-project`
       (use your username without the domain suffix: +++@lab.CloudPortalCredential(User1).Username+++)
 
-1. Select **Create**.
+1. Select **Create**. It may take a few moments for the project to be created.
 
 1. After the project is created, you will be taken to the project overview page. Ensure your user ID appears under **Project users** with a role of **Azure AI User**.
 
@@ -34,7 +39,7 @@
     > [!IMPORTANT]
     > If your user ID does not appear, select **+New User** and add your user ID with the role of **Azure AI User**.
 
-## Navigate to the new Azure AI Foundry Portal and deploy your first model
+## Navigate to the New Azure AI Foundry Portal and Deploy Your First Model
 
 Next, you’ll switch to the new Azure AI Foundry portal to continue the lab.
 
@@ -47,7 +52,6 @@ Next, you’ll switch to the new Azure AI Foundry portal to continue the lab.
     ![Discover tab image](../Media/discovertab.png)
 
 1. While in the **Discover** tab, select **Models** from the left navigation pane.
-
 
     ![Models navigation image](../Media/modelsnavui.png)
 
@@ -126,7 +130,7 @@ Next, you’ll switch to the new Azure AI Foundry portal to continue the lab.
 
 1. Review the agent's response in the chat window. You should see a valid JSON response with a list of manufacturer accounts from the CRM data you uploaded.
 
-## Create a new workflow in Azure AI Foundry
+## Create a New Workflow in Azure AI Foundry
 
 1. In the Azure AI Foundry portal, select the **Workflows** tab from the left navigation pane.
 
@@ -150,17 +154,20 @@ Next, you’ll switch to the new Azure AI Foundry portal to continue the lab.
 
 1. Select **Save**, and when prompted, name the workflow `crm-workflow`.
 
-## Next steps
+## Next Steps
 
-You’ve now completed the required setup for Zone 3. From here, you will move into a group-based challenge focused on:
+You’ve now completed the baseline setup for Zone 3. From here, you’ll shift into a **group-based design challenge** focused on using Azure AI Foundry to model a real-world agent system.
 
-- Designing agent responsibilities
-- Orchestrating agents using workflows
-- Testing and refining behavior in the Foundry UI
+As a group, you will:
 
-All challenge tasks can be completed **entirely in the Azure AI Foundry portal**.
+- Define a real-world scenario the agent system supports  
+- Decide agent responsibilities and boundaries  
+- Use workflows to orchestrate behavior  
+- Test and refine the system in the Foundry UI  
 
-If you prefer working in code, you may optionally configure the Azure AI Foundry extension in Visual Studio Code in the next task. VS Code can be useful for inspecting agents and experimenting, but it is not required for this zone.
+All challenge work can be completed **entirely in the Azure AI Foundry portal**.
 
-➡️ Optional: Set up VS Code for Azure AI Foundry  
-➡️ Continue to the **Zone 3 Challenge**
+If you prefer working in code, you may optionally configure the Azure AI Foundry extension in Visual Studio Code. VS Code can be helpful for testing and inspecting agents or workflows, but it is not required.
+
+➡️ **Optional setup:** Proceed to **Use Azure AI Foundry in Visual Studio Code**  
+➡️ **Skip ahead:** Continue to **Challenge: Design for the Real World**

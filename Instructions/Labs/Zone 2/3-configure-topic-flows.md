@@ -1,4 +1,4 @@
-# Configure topic flows for your agent
+# Configure Topic Flows for Your Agent
 
 In this task, you will introduce **intent-based routing** into your agent.
 
@@ -34,7 +34,7 @@ First, create the main topic that will be used for intelligent routing:
 
 Select **Save** in the upper right corner of the topic designer to save the current topic.
 
-## Step 2: Create child topics
+## Step 2: Create Child Topics
 
 1. Navigate back to the list of **Topics** and create a new topic from blank.
 1. Name the new topic: `Summarize an Opportunity`.
@@ -150,7 +150,7 @@ Open the **Intent Analysis** topic. Now we will add the **New Prompt** action to
 
 1. Select **Save** in the upper right corner of the topic designer to save the current topic.
 
-## Step 4: Build the conversation flow
+## Step 4: Build the Conversation Flow
 
 1. At the end of the **Intent Analysis** topic, right after **Prompt** action, Insert a new action for **Set a variable value**, under the group **Variable management**.
 
@@ -199,7 +199,7 @@ Open the **Intent Analysis** topic. Now we will add the **New Prompt** action to
 
 1. Select **Save** to save the updates to the **Intent Analysis** topic.
 
-## Step 5: Test the conversation flow
+## Step 5: Test the Conversation Flow
 
 If the **Test your agent** pane is not already open, select the **Test** button in the upper right corner of the agent designer to open it.
 
@@ -225,4 +225,4 @@ I'd like to review the details for a customer opportunity
 
 ![screenshot showing testing results.](../Media/expectedresults.png)
 
-➡️ Proceed to the next task in Zone 2: **Finalize your topics**
+➡️ Proceed to the next task in Zone 2: **Finalize Your Topics**

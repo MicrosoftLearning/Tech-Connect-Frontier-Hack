@@ -26,4 +26,4 @@ If the data appears to exist in the file but the agent says it does not, that is
 
 Refine your instructions and retest until the agent consistently gives grounded, explainable answers.
 
-➡️ Proceed to **Zone 1 — Outcomes & Next Steps**
+➡️ Proceed to the next task in Zone 1: **Zone 1 — Outcomes & Next Steps**

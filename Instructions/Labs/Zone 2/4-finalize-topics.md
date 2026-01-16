@@ -1,4 +1,4 @@
-# Finalize your topics
+# Finalize Your Topics
 
 In this task, you will add **data-grounded generative responses** to your topic flows.
 
@@ -120,7 +120,7 @@ Although the examples focus on opportunity records, the same generative patterns
 
 1. Select **Save** in the upper right corner of the topic designer to save the Topic.
 
-## Step 3: Test your agent’s generative answers
+## Step 3: Test your Agent’s Generative Answers
 
 If the **Test your agent** pane is not already open, select the **Test** button in the upper right corner of the agent designer to open it.
 

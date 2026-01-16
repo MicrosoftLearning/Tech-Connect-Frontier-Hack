@@ -1,4 +1,4 @@
-# Create a new agent in Microsoft 365 Copilot
+# Create a New Agent in Microsoft 365 Copilot
 
 ## Step 1: Access Agent Builder in Microsoft 365 Copilot
 
@@ -22,7 +22,7 @@ To get started with configuring your agent, open Microsoft 365 Copilot.
 
 1. Select **Configure** to switch to the agent configuration.
 
-## Step 2: Give your agent a name & description
+## Step 2: Give Your Agent a Name & Description
 
 Choose a name that clearly communicates what the agent is for.
 
@@ -86,4 +86,4 @@ Next, we need to ground the agent with the sample dataset.
 
     ![Screenshot of knowledge preparing.](../Media/knowledgepreparing.png)
 
-➡️ Proceed to **Testing Your Agent**
+➡️ Proceed to the next task in Zone 1: **Testing Your Agent**

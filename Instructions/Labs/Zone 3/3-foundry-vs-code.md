@@ -1,9 +1,9 @@
-# Deploy an Agent using the Azure AI Foundry Extension in Visual Studio Code
+# Use Azure AI Foundry in Visual Studio Code
 
 > [!IMPORTANT]
 > If you wish to continue using the Azure AI Foundry portal, skip this task.
 
-## Access Foundry via VS Code
+## Configure VS Code
 
 1. Select **VS Code** from the desktop.
 
@@ -36,7 +36,7 @@
     ![Foundry project structure](../Media/foundryprojectstructure.png)
 
 > [!TIP]
-> When editing workflows in Vs Code, you must first switch from **Playground** mode to **YAML**. Once your edits are completed within the YAML editor, select **Deploy** next to the workflow name:
+> When editing workflows in VS Code, you must first switch from **Playground** mode to **YAML**. Once your edits are completed within the YAML editor, select **Deploy** next to the workflow name:
 >
 > ![Deploy workflow](../Media/deployworkflow.png)
 
@@ -67,4 +67,4 @@ For this lab, we focused on **Azure-hosted models deployed into your Foundry pro
 - Tooling works consistently across the portal and VS Code
 - Scenarios align with real-world Azure AI deployments
 
-
+➡️ Proceed to the next task in Zone 3: **Challenge: Design for the Real World**

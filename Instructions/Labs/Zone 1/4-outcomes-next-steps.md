@@ -4,14 +4,14 @@
 
 Your retrieval agent must meet the following requirements before moving on.
 
-**Required**
+**Required**:
 
 - A retrieval-based agent is created and accessible  
 - The agent is grounded in the dataset  
 - The agent can answer at least three realistic, portfolio-level questions  
 - The agent does not fabricate answers when data is missing or unclear  
 
-**Stronger (Optional)**
+**Stronger (Optional)**:
 
 These are not required, but indicate a higher-quality agent:
 
@@ -30,4 +30,4 @@ Do not proceed until your agent meets these requirements.
 
 Once your agent meets the required criteria, continue to:
 
-➡️ **🟡 Zone 2: Build an Action Agent (Copilot Studio)**
+➡️ **🟡 Zone 2: Build a Reasoning & Routing Agent (Copilot Studio)**

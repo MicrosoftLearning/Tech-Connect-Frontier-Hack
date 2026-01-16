@@ -4,7 +4,7 @@ In this task, you will create the base agent that all topic logic in Zone 2 will
 
 The configuration here is intentionally minimal. You will extend this agent through topics and routing logic in later steps.
 
-**What you are defining**
+**What you are defining**:
 
 - A clear agent purpose
 - A constrained knowledge scope
@@ -24,9 +24,9 @@ This agent is designed to be **data-grounded**, predictable, and extensible.
 
 - Wait 10–15 seconds for the process to begin configuring your personal developer environment.
 
-## Step 2: Create the agent
+## Step 2: Create the Agent
 
-Once you are in Copilot Studio, the tool will start with the agent creation wizard. Select **Configure** to manually create your agent. 
+Once you are in Copilot Studio, the tool will start with the agent creation wizard. Select **Configure** to manually create your agent.
 
 > [!TIP]
 > If at any time you want to start over with configuring your agent, select the **ellipses (...)** \> **Restart agent creation** \> **Restart**.
@@ -68,7 +68,7 @@ Select **Create** to create your new agent.
 
 The agent will be provisioned. Wait for the alert, "Your agent has been provisioned" or for the **Publish** button to become enabled to proceed with configuring your agent.
 
-## Step 3: Attach knowledge
+## Step 3: Attach Knowledge
 
  Scroll down to the **Knowledge** section, select **+ Add knowledge**. You will reuse the same CRM_Synthetic_Data.xlsx dataset from Zone 1; no new data sources are introduced in this task.
 
@@ -82,7 +82,7 @@ The agent will be provisioned. Wait for the alert, "Your agent has been provisio
 > [!NOTE]
 > The process of uploading a file in this way may take up to 15 minutes. A status of **In Progress** will be shown next to the file name. You may move on to the next tasks while the file is being uploaded.
 
-## Step 4: Build initial conversation starters
+## Step 4: Build Initial Conversation Starters
 
 In this task, you are going to configure some conversation starters, which will provide users with suggested prompts when they start using your agent.
 
@@ -97,7 +97,7 @@ For now, this is all you need to do in this step. You will revisit this section 
 
 ![Screenshot of suggested prompts.](../Media/suggested_prompts.png)
 
-## Step 5: Configure agent settings
+## Step 5: Configure Agent Settings
 
 Ensure that the following settings are configured for optimal performance:
 
@@ -123,4 +123,4 @@ Your "Opportunity Review Advisor" agent is now ready to be enhanced with intelli
 
 Close the Settings panel by selecting the **X** icon in the upper right corner.
 
-➡️ Proceed to the next task in Zone 2: **Configure topic flows for your agent**.
+➡️ Proceed to the next task in Zone 2: **Configure Topic Flows for Your Agent**

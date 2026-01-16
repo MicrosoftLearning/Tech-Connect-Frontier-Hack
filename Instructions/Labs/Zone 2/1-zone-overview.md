@@ -16,7 +16,7 @@ Unlike Zone 1, which focused on retrieval and grounding, this zone introduces:
 The step-by-step guidance in this zone intentionally focuses on **customer opportunities** as a representative example.  
 The patterns you build here can be extended to other entities in the dataset—or applied to real-world data—without changing the core architecture.
 
-## What success looks like
+## What Success Looks Like
 
 By the end of this zone, you will have:
 
@@ -28,17 +28,18 @@ By the end of this zone, you will have:
 
 This zone is about **reasoning and orchestration**, not automation or action-taking.
 
-## How to approach this zone
+## How to Approach This Zone
 
 You can complete Zone 2 in **one of two ways**. Both lead to the same functional outcome.
 
-### 🧭 Option A: Guided build
+### 🧭 Option A: Guided Build
 
 > [+Note] Follow a step-by-step path to build a baseline agent.
 >
 > This option is recommended if you are new to Copilot Studio topic design or want explicit guidance through configuration.
 >
 > You will:
+>
 > - Create a base agent
 > - Add an intent analysis topic
 > - Configure routing logic
@@ -46,7 +47,7 @@ You can complete Zone 2 in **one of two ways**. Both lead to the same functional
 >
 > ➡️ Start with **Create a New Agent in Copilot Studio**, then proceed through each task in order.
 
-### 🧠 Option B: Build it on your own
+### 🧠 Option B: Build It on Your Own
 
 > [+Note] Design and build the agent independently or with your group.
 >
@@ -85,8 +86,7 @@ You can complete Zone 2 in **one of two ways**. Both lead to the same functional
 >
 > Once you feel confident in your design, proceed to **Challenge: Go Beyond the Script**.
 
-
-## What you should end up with
+## What You Should End Up With
 
 At a minimum, your agent should include:
 
@@ -98,7 +98,7 @@ At a minimum, your agent should include:
 
 The guided path uses opportunities as the example entity, but the same patterns apply to other records in the dataset.
 
-## Conceptual flow
+## Conceptual Flow
 
 The diagram below shows the intended shape of the solution, not the exact implementation.
 
@@ -130,7 +130,7 @@ Intent Analysis Topic
 
 This pattern is intentionally simple — and intentionally extensible.
 
-## Group work expectations
+## Group Work Expectations
 
 Regardless of which path you choose:
 
@@ -140,7 +140,7 @@ Regardless of which path you choose:
 
 These insights will be useful during the Zone 2 Challenge.
 
-## Where to start
+## Where to Start
 
-- ➡️ **Guided path:** Begin with **Create a New Agent in Copilot Studio**  
-- ➡️ **On-your-own path:** Use the guidance above to build your agent, then move directly to **Challenge: Go Beyond the Script**
+➡️ **Guided path:** Begin with **Create a New Agent in Copilot Studio**  
+➡️ **On-your-own path:** Use the guidance above to build your agent, then move directly to **Challenge: Go Beyond the Script**

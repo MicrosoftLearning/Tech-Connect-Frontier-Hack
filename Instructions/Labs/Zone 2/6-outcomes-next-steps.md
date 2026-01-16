@@ -30,8 +30,8 @@ If any of the **required** criteria above are not met, pause here:
 
 Do not proceed until your agent meets these requirements.
 
-## Next Step
+## Next Steps
 
 Once your agent meets the required criteria, continue to:
 
-➡️ **🔴 Zone 3: [Title placeholder]**
+➡️ **🔵 Zone 3: Design & Orchestrate an Agent System (Azure AI Foundry)**

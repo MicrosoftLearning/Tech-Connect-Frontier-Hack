@@ -7,7 +7,7 @@ By this point, you’ve either followed the guided steps or built your own worki
 >[!IMPORTANT]
 > If you are short on time, you may skip this challenge and proceed directly to **Outcomes & Next Steps**.
 
-## Challenge focus (choose one)
+## Challenge Focus (choose one)
 
 Pick **one** of the following directions.
 
@@ -29,7 +29,7 @@ You may implement this using:
 
 The exact implementation is up to you.
 
-### Option 2: Smarter reasoning and routing
+### Option 2: Smarter Reasoning and Routing
 
 Improve the agent’s behavior by adding:
 
