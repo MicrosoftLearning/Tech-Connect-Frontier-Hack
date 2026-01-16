@@ -20,6 +20,9 @@ To get started with configuring your agent, open Microsoft 365 Copilot.
 
     After selecting **New agent**, it may take a few moments for Agent Builder to load.
 
+    > [!NOTE]
+    > If you are brought to a page with a prompt window titled **What can I take of your hands today?**, select **Skip to configure**
+
 1. Select **Configure** to switch to the agent configuration.
 
 ## Step 2: Give Your Agent a Name & Description
