@@ -3,7 +3,7 @@
 > [!IMPORTANT]
 > If you wish to continue using the Azure AI Foundry portal, skip this task.
 
-## Configure VS Code
+## Step 1: Configure VS Code
 
 1. Select **VS Code** from the desktop.
 
@@ -40,7 +40,7 @@
 >
 > ![Deploy workflow](../Media/deployworkflow.png)
 
-## Explore Azure AI Foundry and AI Toolkit
+## Step 2: Explore Azure AI Foundry and AI Toolkit
 
 Now that your agent is up and running, take some time to explore the available features in the **Azure AI Foundry** extension.
 

@@ -2,7 +2,7 @@
 
 In this task, you’ll create a new Azure AI Foundry project that is used as your baseline throughout Zone 3.
 
-## Create a Project in Azure AI Foundry
+## Step 1: Create a Project in Azure AI Foundry
 
 1. Open the Microsoft Edge browser and navigate to +++https://ai.azure.com+++
 
@@ -39,7 +39,7 @@ In this task, you’ll create a new Azure AI Foundry project that is used as you
     > [!IMPORTANT]
     > If your user ID doesn't appear, select **+New User** and add your user ID with the role of **Azure AI User**.
 
-## Navigate to the New Azure AI Foundry Portal and Deploy Your First Model
+## Step 2: Navigate to the New Azure AI Foundry Portal and Deploy Your First Model
 
 Next, you’ll switch to the new Azure AI Foundry portal to continue the lab.
 
@@ -63,7 +63,7 @@ Next, you’ll switch to the new Azure AI Foundry portal to continue the lab.
 
 1. Select **Deploy** from the top right corner, then select **Default setting**. You'll be brought to the Agent playground once the model is deployed.
 
-## Create Your First Agent in Azure AI Foundry
+## Step 3: Create Your First Agent in Azure AI Foundry
 
 1. While still in the Azure AI Foundry portal, select the **Agents** from the left navigation pane.
 
@@ -128,7 +128,7 @@ Next, you’ll switch to the new Azure AI Foundry portal to continue the lab.
 
 1. Review the agent's response in the chat window. You should see a valid JSON response with a list of manufacturer accounts from the CRM data you uploaded.
 
-## Create a New Workflow in Azure AI Foundry
+## Step 4: Create a New Workflow in Azure AI Foundry
 
 1. In the Azure AI Foundry portal, select the **Workflows** tab from the left navigation pane.
 
