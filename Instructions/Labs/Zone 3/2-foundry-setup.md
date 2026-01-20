@@ -63,6 +63,9 @@ Next, you’ll switch to the new Azure AI Foundry portal to continue the lab.
 
 1. Select **Deploy** from the top right corner, then select **Default setting**. You'll be brought to the Agent playground once the model is deployed.
 
+    > [!IMPORTANT]
+    > If "Deploy" is disabled, you may need to wait a few minutes for the **Azure AI User** role to fully propagate in the system. Try refreshing the page after a few moments.
+
 ## Step 3: Create Your First Agent in Azure AI Foundry
 
 1. While still in the Azure AI Foundry portal, select the **Agents** from the left navigation pane.
