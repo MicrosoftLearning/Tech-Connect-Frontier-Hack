@@ -28,7 +28,7 @@ In this task, you’ll create a new Azure AI Foundry project that is used as you
 1. Select **New Project**. In the **Create Project** pane, enter the following:
 
     - **Project Name**: `<user-id>-foundry-project`
-      (use your username without the domain suffix: +++@lab.CloudPortalCredential(User1).Username+++)
+      (replace `<user-id>` with your username without the domain suffix: +++@lab.CloudPortalCredential(User1).Username+++)
 
 1. Select **Create**. It may take a few moments for the project to be created.
 
@@ -52,8 +52,6 @@ Next, you’ll switch to the new Azure AI Foundry portal to continue the lab.
     ![Discover tab image](../Media/discovertab.png)
 
 1. While in the **Discover** tab, select **Models** from the left navigation pane.
-
-    ![Models navigation image](../Media/modelsnavui.png)
 
 1. In the search box, type `gpt-4.1-mini` and select the model from the search results.
 

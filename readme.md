@@ -34,7 +34,7 @@ The zones progress from more concrete to more conceptual:
 
 ## 🚀 The Zones at a Glance
 
-**🟢 Zone 1: Build a Retrieval Agent (Copilot Chat)**
+**🟢 Zone 1: Build a Retrieval Agent** (Copilot Chat)
 
 Focus on grounding agents in data and producing clear, reliable responses.
 
@@ -42,7 +42,7 @@ Focus on grounding agents in data and producing clear, reliable responses.
 
 Design how an agent interprets intent and routes conversations.
 
-**🔵 Zone 3: Design & Orchestrate an Agent System(Azure AI Foundry)**
+**🔵 Zone 3: Design & Orchestrate an Agent System** (Azure AI Foundry)
 
 Step back and think about agents, workflows, and data as a system.
 

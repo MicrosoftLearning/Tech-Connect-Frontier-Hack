@@ -1,12 +1,16 @@
 # 🟡 Zone 2: Build a Reasoning & Routing Agent (Copilot Studio)
 
+**Suggested Time:** ~65 minutes
+
 ## Overview
 
 In Zone 2, you'll build a **reasoning-driven agent** in Copilot Studio that can analyze user intent and dynamically route conversations to the appropriate topic flow.
 
 This zone is where your agent learns to think before it speaks by separating intent analysis from response generation.
 
-You'll continue using the **same CRM_Synthetic_Data.xlsx dataset from Zone 1**; no new data sources are introduced in this zone.
+You’ll have access to the **same datasets from the previous zone**, located in the **Lab Docs** folder.
+
+The step-by-step guidance in this zone is built around the **CRM_Synthetic_Data.xlsx** dataset and uses **customer opportunities** as a representative example.
 
 Unlike Zone 1, which focused on retrieval and grounding, this zone introduces:
 
@@ -14,8 +18,6 @@ Unlike Zone 1, which focused on retrieval and grounding, this zone introduces:
 - Topic-based routing  
 - Multi-turn conversation design  
 - Data-grounded generative responses  
-
-The step-by-step guidance in this zone intentionally focuses on **customer opportunities** as a representative example.  
 
 The patterns you build here can be extended to other entities in the dataset — or applied to real-world data — without changing the core architecture.
 
@@ -56,13 +58,13 @@ You can complete Zone 2 in **one of two ways**. Both lead to the same functional
 >
 > This option is intended for participants already comfortable working in Copilot Studio.
 >
-> The guided steps demonstrate **one representative implementation** using opportunity data in the provided dataset, but you are not limited to those guardrails.
+> The guided steps demonstrate **one representative implementation** using opportunity data in the provided CRM dataset, but you are not limited to those guardrails.
 >
 > **Your objective** is to design an agent that:
 >
 > - Analyzes user intent  
 > - Routes conversations dynamically  
-> - Produces data-grounded responses using the CRM dataset  
+> - Produces data-grounded responses using your **selected** dataset
 >
 > You may reference the guided steps at any time.
 >
@@ -132,6 +134,8 @@ Intent Analysis Topic
 ```
 
 This pattern is intentionally simple — and intentionally extensible.
+
+While the diagram uses **customer opportunities from the CRM dataset** as an example, the same flow applies to any dataset or entity grounded in the agent.
 
 ## Group Work Expectations
 

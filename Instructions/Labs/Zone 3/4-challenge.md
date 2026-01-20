@@ -68,7 +68,9 @@ All files are available on the lab environment’s desktop.
 - **Lab Docs/**
   - **Sample Docs/**
     - `CRM_Synthetics_JSON_Data.json`
-  - **Zone 3 – Agent Design Template/**
+    - `Engineer_activities.json`
+    - `Support_case_data.json`
+  - **Template/**
     - `Zone_3_Agent_Design_Template.docx`
 
 **Where to Work**:

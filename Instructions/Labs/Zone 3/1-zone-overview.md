@@ -1,5 +1,7 @@
 # 🔵 Zone 3: Design & Orchestrate an Agent System (Azure AI Foundry)
 
+**Suggested Time:** ~65 minutes
+
 ## Overview
 
 In Zone 3, you'll design and orchestrate an **agent system** using **Azure AI Foundry**.
@@ -53,7 +55,7 @@ Focus on **clarity of design**, not completeness.
 
 ## What you’re working with
 
-- The same **synthetic CRM dataset** used in earlier zones  
+- The same **synthetic datasets** used in earlier zones, converted to **JSON files** for use in Azure AI Foundry
 - Azure AI Foundry (portal or VS Code)  
 - An optional **Agent Design Template** for alignment  
 

@@ -18,7 +18,7 @@ Extend your agent so that, after analyzing an opportunity, it can **offer to tak
 Examples include:
 
 - Creating a follow-up calendar event  
-- Posting a summary or risk alert to a Teams channel  
+- Posting a summary or alert to a Teams channel  
 - Drafting (and optionally sending) an email  
 
 You may implement this using:
@@ -41,7 +41,7 @@ Improve the agent’s behavior by adding:
 
 Your solution should:
 
-- Use the existing **CRM dataset** as its source of truth  
+- Use the chosen **dataset** as its source of truth  
 - Remain **data-grounded** (don't infer or invent missing information)  
 - Require **explicit user confirmation** before taking any action  
 - Improve how the agent supports a realistic customer or seller workflow  

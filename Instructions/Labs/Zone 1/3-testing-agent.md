@@ -1,10 +1,13 @@
 # Testing Your Agent
 
-Test your agent with realistic portfolio-level questions such as:
+Test your agent with realistic, portfolio-level questions based on the dataset you chose to ground it in.
+
+If you’re using the **CRM dataset**, examples include:
 
 - `List all accounts in the [Manufacturing] industry`
 
-    > **Note:** You can replace `[Manufacturing]` with [Retail], [Healthcare], [Finance], or [Technology].
+    > [!NOTE]
+    > You can replace `[Manufacturing]` with [Retail], [Healthcare], [Finance], or [Technology].
 
 - `What records exist for [account name]?`
 - `Which leads are not connected to any opportunity?`
@@ -12,7 +15,9 @@ Test your agent with realistic portfolio-level questions such as:
 - `Are there patterns across closed or stalled records?`
 - `Where is data missing or inconsistent?`
 
-To spot-check and validate the agent’s answers, open **CRM_Synthetic_Data.xlsx** from the **Uploaded files** section and compare it to what the agent returns.
+If you’re using an **alternative dataset**, adapt these questions to match the records and fields available in that file (for example, activities, cases, owners, status, or timelines).
+
+To spot-check and validate the agent’s answers, open the dataset you uploaded from the **Uploaded files** section and compare it to what the agent returns.
 
 ![Screenshot of uploaded files.](../Media/uploadedfiles.png)
 
