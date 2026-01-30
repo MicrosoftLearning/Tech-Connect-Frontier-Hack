@@ -43,9 +43,9 @@ Select **Save** in the upper right corner of the topic designer to save the curr
    ![Screenshot of Change Trigger icon.](../Media/change-trigger.png)
 
 1. Under **Change trigger**, select **It's redirected to**.
-1. Select **+** under the topic trigger, then select **Send a message**.
+1. Select **(+)** under the topic trigger, then select **Send a message**.
 1. In the message box, enter: `Great, you'd like me to summarize an opportunity.`.
-1. Select **+** under the message action. Choose **Topic management**, then select **End all topics**.
+1. Select **(+)** under the message action. Choose **Topic management**, then select **End all topics**.
 
     ![Screenshot of child topic.](../Media/endtopics.png)
 
@@ -58,9 +58,9 @@ Below you can see what the **Summarize an Opportunity** topic should look like:
 
 ## Step 3: Use AI Prompt Builder
 
-Open the **Intent Analysis** topic. Now we'll add the **New Prompt** action to the topic in order to use the **AI Builder** capabilities.
+Navigate back to the list of topics and open the **Intent Analysis** topic. Now we'll add the **New Prompt** action to the topic in order to use the **AI Builder** capabilities.
 
-1. Select the **+** command to add a new action to the topic
+1. Select the **(+)** command to add a new action to the topic
 1. Select **Add a tool** to open the list of tools
 1. In the list of **tools** select **New prompt**:
 
@@ -70,15 +70,7 @@ Open the **Intent Analysis** topic. Now we'll add the **New Prompt** action to t
 
     ![Screenshot of AI Builder.](../Media/aibuilder.png)
 
-1. In the **Instructions** section you can select the model that you want to use. Available options are:
-
-    - GPT-4.1-mini
-    - GPT-4.1
-    - GPT-5 chat
-    - o3
-    - GPT-5 reasoning
-
-    Leave the default GPT-4.1-mini selected
+1. In the **Instructions** ensure that the **GPT-4.1-mini** model is selected for the prompt.
 
 1. In the text window just below the model selection, you can write the instructions for your new prompt. For example, use the following text (you can copy and paste the value):
 
@@ -114,11 +106,13 @@ Open the **Intent Analysis** topic. Now we'll add the **New Prompt** action to t
 
 1. Select the words **[user's message]** at the top of the instructions and select **+ Add content** just below the instructions text.
 
+    ![Screenshot showing add content.](../Media/user_message_add.png)
+
 1. Select the option **Text** in popup dialog in order to insert a new text input field
 
     ![Screenshot showing text option.](../Media/textoption.png)
 
-1. When configuring the input field, name the field as `user's message` and provide the following **Sample data**: `I want to summarize customer opportunity data`.
+1. When configuring the input field, name the field as `user's message` and provide the following **Sample data**: `I want to summarize customer opportunity data`. Then select **Close**
 
     ![screenshot showing text option details.](../Media/users_message.png)
 
@@ -158,11 +152,11 @@ Open the **Intent Analysis** topic. Now we'll add the **New Prompt** action to t
 
     ![screenshot showing set a variable.](../Media/setvariable.png)
 
-1. Select **Select a variable**, then select to **Create a new variable**. Select the new **Var1** variable to show the side panel and rename it to `approach`.
+1. Select **Select a variable**, then select to **Create a new variable**. Select the new **Var1** variable to show the side panel and rename it to `approach`. Then select **X** to close out of the variable properties panel.
 
     ![screenshot showing variable options.](../Media/approachvariable.png)
 
-1. Now, select the **To value** field of the action and set its value to the following PowerFx formula and then select **Insert**:
+1. Now, select the **...** next to the **To value** field and then select **Formula**. Set its value to the following PowerFx formula and then select **Insert**:
 
     ```text
     Topic.IntentPrediction.structuredOutput.approach
@@ -170,24 +164,26 @@ Open the **Intent Analysis** topic. Now we'll add the **New Prompt** action to t
 
     ![screenshot showing variable options.](../Media/approachpowerfx.png)
 
-1. Next, we need to determine where the user should be redirected. Under the **Set variable value** action, select **+** and add an **Add a condition** action.
+1. Next, we need to determine where the user should be redirected. Under the **Set variable value** action we just created, select **(+)** and add an **Add a condition** action.
 
 1. **Summary Branch:**
 
-    - Rename the new branch `Summary`
-    - Select on **Select a variable** and select the `approach` variable
-    - Set the condition to **is equal to** and set the value to compare to `summary`
-    - Select the **+** button to add a new action inside the branch. Select the group of actions with name **Topic management**, then **Go to another topic**, and then select the topic with name **Summarize an Opportunity**
+    - Rename the new branch from **Condition** to `Summary`
+    - Select on **Select a variable** and select the **approach** variable (under custom tab, towards the bottom of the list)
+    - Ensure **Is equal to** is selected as the condition
+    - set the value to compare to `summary`
+    - Select the **(+)** button to add a new action inside the Summary branch. Select the group of actions with name **Topic management**, then **Go to another topic**, and then select the topic with name **Summarize an Opportunity**
 
         ![screenshot showing summary branch.](../Media/summarycondition.png)
 
 1. **Details Branch:**
 
-    - Select the **+** icon just before the conditional block and select **Add a condition** to add a new branch
-    - Rename the new branch `Details`
-    - Select on  **Select a variable** and select the `approach` variable
-    - Set the condition to **is equal to** and set the value to compare to `details`
-    - Select the **+** button to add a new action inside the branch. Select the group of actions with name **Topic management**, then **Go to another topic**, and then select the topic with name **Review Opportunity Details**
+    - Select the **(+)** icon just before the conditional block and select **Add a condition** to add a new branch
+    - RRename the new branch from **Condition** to `Details`
+    - Select on  **Select a variable** and select the **approach** variable (under custom tab, towards the bottom of the list)
+    - Ensure **Is equal to** is selected as the condition
+    - set the value to compare to `details`
+    - Select the **(+)** button to add a new action inside the branch. Select the group of actions with name **Topic management**, then **Go to another topic**, and then select the topic with name **Review Opportunity Details**
 
 1. **All Other Conditions Branch:**
 

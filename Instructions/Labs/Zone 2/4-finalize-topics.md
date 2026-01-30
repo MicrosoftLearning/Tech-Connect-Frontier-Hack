@@ -14,7 +14,7 @@ Although the examples focus on opportunity records, the same generative patterns
 
 1. Navigate to the **Topics** tab. You should see the topics created previously. Select **Summarize an Opportunity** to open the topic designer.
 
-1. Under the existing message action, select the **+** command to add a new action.
+1. Under the existing message action (and above the **End all topics** action), select the **(+)** command to add a new action.
 
 1. In the action menu, select **Ask a question**.
 
@@ -26,7 +26,7 @@ Although the examples focus on opportunity records, the same generative patterns
 
 1. Select the new **Var1** variable, and in the **Variable properties** panel that appears, rename it to `TargetOpportunityName`. Select **X** to close the panel.
 
-1. Under the question action, select the **+** command to add another new action.
+1. Under the question action, select the **(+)** command to add another new action.
 
 1. In the action menu, select **Advanced** > **Generative answers**.
 
@@ -67,9 +67,29 @@ Although the examples focus on opportunity records, the same generative patterns
 
 ## Step 2: Adding Generative Answers to the Review Opportunity Details Topic
 
-1. Follow the same steps from **Step 1** to add a generative answers action, but this time in the **Review Opportunity Details** topic.
+1. Navigate back to the **Topics** tab. You should see the topics created previously. Select **Review Opportunity Details** to open the topic designer.
 
-1. Once you're at the **Create generative answers** action, input the following PowerFx expression, and select **Insert**:
+1. Under the existing message action (and above the **End all topics** action), select the **(+)** command to add a new action.
+
+1. In the action menu, select **Ask a question**.
+
+1. In the question box, enter: `What opportunity would you like to talk about?`.
+
+1. Select where it says **Multiple Choice options** and from the list of options that appear, select **User's entire response**
+
+    ![screenshot showing new option](../Media/usersresponse.png)
+
+1. Select the new **Var1** variable, and in the **Variable properties** panel that appears, rename it to `TargetOpportunityName`. Select **X** to close the panel.
+
+1. Under the question action, select the **(+)** command to add another new action.
+
+1. In the action menu, select **Advanced** > **Generative answers**.
+
+    ![screenshot showing generative answers action](../Media/generativeanswers.png)
+
+1. In the **Create generative answers** action, select **...** to the right of **Enter or select a value**.
+
+1. Select **Formula**, input the following PowerFx expression, and select **Insert**:
 
     ```plaintext
     "Using the CRM dataset, retrieve the row for this exact Opportunity Name: "
@@ -126,7 +146,7 @@ If the **Test your agent** pane isn't already open, select the **Test** button i
 
 ![screenshot showing test agent pane.](../Media/testagent.png)
 
-In the **Test your agent** pane, select the **+** icon to **Start a new test session**.
+In the **Test your agent** pane, select the **(+)** icon to **Start a new test session**.
 
 **Test 1: Summarize an Opportunity**:
 
