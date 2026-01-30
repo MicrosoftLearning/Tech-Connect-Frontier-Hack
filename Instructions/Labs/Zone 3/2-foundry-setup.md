@@ -27,12 +27,10 @@ In this task, you’ll create a new Azure AI Foundry project that is used as you
 
 1. Select **New Project**. In the **Create Project** pane, enter:
 
-   - **Project Name:** `<user-id>-foundry-project`  
-     Use your username (without the domain) from below and remove everything after **@**:
+   - **Project Name:** `User1-@lab.LabInstance.Id-foundry-project`  
 
-     **@lab.CloudPortalCredential(User1).Username**
-
-     **Example:** user1-123456789@LODSPRODMCA.onmicrosoft.com → **user1-123456789-foundry-project**
+    > [!IMPORTANT]
+    > Your project name must match the project name above exactly, or you may encounter an error.
 
 1. Select **Create**. It may take a few moments for the project to be created.
 
