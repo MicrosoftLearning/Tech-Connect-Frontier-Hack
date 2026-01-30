@@ -23,8 +23,8 @@ Rather than focusing on a single agent or scripted scenario, this zone focuses o
 
 By the end of this zone, you'll have:
 
-- A clearly defined **real-world scenario**
-- At least one **grounded agent** using the provided data
+- A clearly defined **real-world scenario** that agents can help with
+- At least one **agent** using the provided data
 - A **workflow** that orchestrates agent behavior
 - A design that could realistically extend to real data or systems
 

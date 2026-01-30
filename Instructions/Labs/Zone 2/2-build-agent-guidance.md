@@ -26,47 +26,44 @@ This agent is designed to be **data-grounded**, predictable, and extensible.
 
 ## Step 2: Create the Agent
 
-Once you are in Copilot Studio, the tool starts with the agent creation wizard. Select **Configure** to manually create your agent.
+1. Once signed in, select **Agents** from the left-hand navigation pane.
+1. Select **+ Create blank agent** in the upper right corner.
 
-> [!TIP]
-> If at any time you want to start over with configuring your agent, select the **ellipses (...)** \> **Restart agent creation** \> **Restart**.
+    > [!NOTE]
+    > If you see a message displayed like **This feature isn't available until your agent has finished setting up.**, wait a few moments until you see **Your agent has been provisioned** before proceeding.
 
-Once you are in the **Configure** tab, define your new agent with the following (you can copy and paste the values):
+1. Once your agent is provisioned, while in the **Overview** tab, enter the following details for your new agent:
 
-- **Name**:
+    - **Name**:
+    
+    ```text
+    Opportunity Review Advisor
+    ```
+    
+    - **Description**:
+    
+    ```text
+    An intelligent assistant that helps users explore customer opportunities by retrieving records and generating concise, data-grounded summaries.
+    ```
+    
+    - **Instructions**:
+    
+    ```text
+    You are a data-grounded assistant specializing in customer opportunity information.
+    
+    You help users retrieve, understand, and summarize individual customer opportunities using the provided CRM dataset as your source of truth.
+    
+    You can support users by:
+    
+    - Locating a specific opportunity by name and returning the corresponding record
+    - Surfacing key fields such as customer, stage, value, and timeline indicators
+    - Producing concise, structured summaries based strictly on available data
+    - Calling out missing, incomplete, or ambiguous information
+    
+    Always base your responses on the CRM data provided. Do not infer, assume, or generate recommendations unless explicitly instructed.
+    ```
 
-```text
-Opportunity Review Advisor
-```
-
-- **Description**:
-
-```text
-An intelligent assistant that helps users explore customer opportunities by retrieving records and generating concise, data-grounded summaries.
-```
-
-- **Instructions**:
-
-```text
-You are a data-grounded assistant specializing in customer opportunity information.
-
-You help users retrieve, understand, and summarize individual customer opportunities using the provided CRM dataset as your source of truth.
-
-You can support users by:
-
-- Locating a specific opportunity by name and returning the corresponding record
-- Surfacing key fields such as customer, stage, value, and timeline indicators
-- Producing concise, structured summaries based strictly on available data
-- Calling out missing, incomplete, or ambiguous information
-
-Always base your responses on the CRM data provided. Do not infer, assume, or generate recommendations unless explicitly instructed.
-```
-
-![Screenshot of Name, Description, and Instructions.](../Media/Name_description.png)
-
-Select **Create** to create your new agent.
-
-The agent will be provisioned. Wait for the alert, "Your agent has been provisioned" or for the **Publish** button to become enabled to proceed with configuring your agent.
+    ![Screenshot of Name, Description, and Instructions.](../Media/Name_description.png)
 
 ## Step 3: Attach Knowledge
 
@@ -74,13 +71,13 @@ The agent will be provisioned. Wait for the alert, "Your agent has been provisio
 
 1. Select **"Select to browse"**
 1. In File Explorer, select **Desktop**
-1. Select the folder **Sample docs**
+1. Select the folder **Lab docs**, then select the **Sample docs** folder.
 1. Select the file named **CRM_Synthetic_Data.xlsx**
 1. Select **Add to Agent**
 1. A message appears indicating that the file is being uploaded. This window will close after a few moments.
 
-> [!NOTE]
-> The process of uploading a file in this way may take up to 15 minutes. A status of **In Progress** will be shown next to the file name. You may move on to the next tasks while the file is being uploaded.
+    > [!NOTE]
+    > The process of uploading a file in this way may take up to 15 minutes. A status of **In Progress** will be shown next to the file name. You may move on to the next tasks while the file is being uploaded.
 
 ## Step 4: Build Initial Conversation Starters
 

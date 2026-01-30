@@ -30,11 +30,9 @@ In this task, you’ll create a new Azure AI Foundry project that is used as you
    - **Project Name:** `<user-id>-foundry-project`  
      Use your username (without the domain) from below and remove everything after **@**:
 
-     ```
-     +++@lab.CloudPortalCredential(User1).Username+++
-     ```
+     **@lab.CloudPortalCredential(User1).Username**
 
-     **Example:** `user1-123456789@LODSPRODMCA.onmicrosoft.com` → **user1-123456789-foundry-project**       
+     **Example:** user1-123456789@LODSPRODMCA.onmicrosoft.com → **user1-123456789-foundry-project**
 
 1. Select **Create**. It may take a few moments for the project to be created.
 
@@ -70,7 +68,7 @@ Next, you’ll switch to the new Azure AI Foundry portal to continue the lab.
 1. Select **Deploy** from the top right corner, then select **Default setting**. You'll be brought to the Agent playground once the model is deployed.
 
     > [!IMPORTANT]
-    > If "Deploy" is disabled, you may need to wait a few minutes for the **Azure AI User** role to fully propagate in the system. Try refreshing the page after a few moments.
+    > If "Deploy" is disabled, you may need to wait a few minutes for the **Azure AI User** role to fully propagate in the system. Try refreshing the page after a few minutes.
 
 ## Step 3: Create Your First Agent in Azure AI Foundry
 
@@ -116,7 +114,7 @@ Next, you’ll switch to the new Azure AI Foundry portal to continue the lab.
 1. In the **Adding Files** window that appears, change the name and upload the file as follows:
 
     - **Vector index name** `crm-data-file`
-    - Select **browse for files**, navigate to the desktop, select the **Sample Docs** folder, and then select **CRM_Synthetics_JSON_Data.json**.
+    - Select **browse for files**, navigate to the desktop, select the **Lab Docs** > **Sample Docs** folder, and then select **CRM_Synthetics_JSON_Data.json**.
 
 1. Once the file is uploaded, select **Attach**.
 

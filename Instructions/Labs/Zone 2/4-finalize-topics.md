@@ -32,7 +32,7 @@ Although the examples focus on opportunity records, the same generative patterns
 
     ![screenshot showing generative answers action](../Media/generativeanswers.png)
 
-1. In the **Create generative answers** action, select *...* to the right of **Enter or select a value**.
+1. In the **Create generative answers** action, select **...** to the right of **Enter or select a value**.
 
 1. Select **Formula**, input the following PowerFx expression, and select **Insert**:
 

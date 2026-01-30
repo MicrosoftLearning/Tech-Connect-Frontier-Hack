@@ -39,7 +39,9 @@ Select **Save** in the upper right corner of the topic designer to save the curr
 1. Navigate back to the list of **Topics** and create a new topic from blank.
 1. Name the new topic: `Summarize an Opportunity`.
 1. Hover over the topic trigger created by default and select the icon with two arrows to change the trigger.
+
    ![Screenshot of Change Trigger icon.](../Media/change-trigger.png)
+
 1. Under **Change trigger**, select **It's redirected to**.
 1. Select **+** under the topic trigger, then select **Send a message**.
 1. In the message box, enter: `Great, you'd like me to summarize an opportunity.`.
@@ -50,7 +52,7 @@ Select **Save** in the upper right corner of the topic designer to save the curr
 1. Select **Save** in the upper right corner of the topic designer to save the current topic.
 1. Repeat steps 1-7 to create a new topic named `Review Opportunity Details`, with the message: `Great, you'd like me to review an opportunity.`.
 
-Below you can see what the `Summarize an Opportunity` topic should look like:
+Below you can see what the **Summarize an Opportunity** topic should look like:
 
 ![Screenshot of child topic.](../Media/summarize_topic.png)
 
@@ -134,7 +136,7 @@ Open the **Intent Analysis** topic. Now we'll add the **New Prompt** action to t
 
 1. In the topic designer, under the **Inputs (1)** variable of the Prompt Builder action, select the **...** three dots to bind a variable.
 
-1. Select the **System** group variables, and then select 3️⃣ **Activity.Text**.
+1. Select the **System** group variables, and then select **Activity.Text**.
 
     ![screenshot showing Activity.Text selection.](../Media/activitytext.png)
 
@@ -175,7 +177,7 @@ Open the **Intent Analysis** topic. Now we'll add the **New Prompt** action to t
     - Rename the new branch `Summary`
     - Select on **Select a variable** and select the `approach` variable
     - Set the condition to **is equal to** and set the value to compare to `summary`
-    - Select the **+** button to add a new action inside the branch. Select the group of actions with name **Topic management**, then **Go to another topic**, and then select the topic with name `Summarize an Opportunity`
+    - Select the **+** button to add a new action inside the branch. Select the group of actions with name **Topic management**, then **Go to another topic**, and then select the topic with name **Summarize an Opportunity**
 
         ![screenshot showing summary branch.](../Media/summarycondition.png)
 
@@ -185,7 +187,7 @@ Open the **Intent Analysis** topic. Now we'll add the **New Prompt** action to t
     - Rename the new branch `Details`
     - Select on  **Select a variable** and select the `approach` variable
     - Set the condition to **is equal to** and set the value to compare to `details`
-    - Select the **+** button to add a new action inside the branch. Select the group of actions with name **Topic management**, then **Go to another topic**, and then select the topic with name `Review Opportunity Details`
+    - Select the **+** button to add a new action inside the branch. Select the group of actions with name **Topic management**, then **Go to another topic**, and then select the topic with name **Review Opportunity Details**
 
 1. **All Other Conditions Branch:**
 
