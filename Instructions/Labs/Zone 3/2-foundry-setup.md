@@ -29,8 +29,13 @@ In this task, you’ll create a new Azure AI Foundry project that is used as you
 
    - **Project Name:** `User1-@lab.LabInstance.Id-foundry-project`  
 
-    > [!IMPORTANT]
-    > Your project name must match the project name above exactly, or you may encounter an error.
+        > [!IMPORTANT]
+        > Your project name **must match the project name above exactly** or you may encounter a policy error.  
+        >  
+        > If you encounter an error:
+        > - Refresh the page  
+        > - Sign out and sign back in  
+        > - Instead of using *Type Text*, manually type the project name exactly as shown
 
 1. Select **Create**. It may take a few moments for the project to be created.
 
