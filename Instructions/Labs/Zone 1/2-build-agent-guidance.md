@@ -79,11 +79,11 @@ Your goal is to help users quickly understand what is happening across the portf
 
 Next, we need to ground the agent with the sample dataset.
 
-1. Scroll to the **Knowledge** section and select the upload icon next to **Enter a URL or name or drop files here**.
+1. Scroll to the **Knowledge** section and select the upload from device icon next to **Enter a URL or name or drop files here**.
 
     ![Screenshot of upload knowledge.](../Media/uploadknowledge.png)
 
-1. In the file explorer window, navigate to your Desktop, select the **Sample Docs** folder, then select the file named **CRM_Synthetic_Data.xlsx**.
+1. In the file explorer window, navigate to your Desktop, select the **Lab Docs** folder, next select the **Sample Docs** folder, then select the file named **CRM_Synthetic_Data.xlsx**.
 
 1. Under the **Agent Preview** on the right side of the screen, you should see a message indicating that the knowledge is being prepared. This process may take several minutes.
 

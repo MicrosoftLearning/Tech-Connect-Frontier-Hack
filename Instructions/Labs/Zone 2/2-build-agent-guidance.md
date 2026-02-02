@@ -32,22 +32,22 @@ This agent is designed to be **data-grounded**, predictable, and extensible.
     > [!NOTE]
     > If you see a message displayed like **This feature isn't available until your agent has finished setting up.**, wait a few moments until you see **Your agent has been provisioned** before proceeding.
 
-1. Once your agent is provisioned, while in the **Overview** tab, enter the following details for your new agent:
+1. Once your agent is provisioned, while in the **Overview** tab, enter the following under details for your new agent, then select **Save**:
 
     - **Name**:
-    
+
     ```text
     Opportunity Review Advisor
     ```
-    
+
     - **Description**:
-    
+
     ```text
     An intelligent assistant that helps users explore customer opportunities by retrieving records and generating concise, data-grounded summaries.
     ```
-    
-    - **Instructions**:
-    
+
+1. Scroll down to the **Instructions** section and enter the following instructions, then select **Save**:
+
     ```text
     You are a data-grounded assistant specializing in customer opportunity information.
     
@@ -62,8 +62,6 @@ This agent is designed to be **data-grounded**, predictable, and extensible.
     
     Always base your responses on the CRM data provided. Do not infer, assume, or generate recommendations unless explicitly instructed.
     ```
-
-    ![Screenshot of Name, Description, and Instructions.](../Media/Name_description.png)
 
 ## Step 3: Attach Knowledge
 

@@ -4,6 +4,9 @@ In this task, you’ll create a new Azure AI Foundry project that is used as you
 
 ## Step 1: Create a Project in Azure AI Foundry
 
+> [!NOTE]
+> Please follow the steps exactly as described. Deviating from the instructions may lead to permission or policy errors.
+
 1. Open the Microsoft Edge browser and navigate to +++https://ai.azure.com+++
 
 1. Select **Sign in** in the top right corner and sign in with the following account details:
@@ -80,6 +83,9 @@ Next, you’ll switch to the new Azure AI Foundry portal to continue the lab.
 1. Select **Create agent**.
 
     ![create agent](../Media/newagentui.png)
+
+    > [!IMPORTANT]
+    > If you get an error indicating that you don't have permission to create an agent, try logging out and logging back in.
 
 1. In the **Create an agent** window that appears, name the agent `crm-data-access-agent`.
 
