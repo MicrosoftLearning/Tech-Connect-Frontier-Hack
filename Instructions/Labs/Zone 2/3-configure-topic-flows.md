@@ -179,7 +179,7 @@ Navigate back to the list of topics and open the **Intent Analysis** topic. Now 
 1. **Details Branch:**
 
     - Select the **(+)** icon just before the conditional block and select **Add a condition** to add a new branch
-    - RRename the new branch from **Condition** to `Details`
+    - Rename the new branch from **Condition** to `Details`
     - Select on  **Select a variable** and select the **approach** variable (under custom tab, towards the bottom of the list)
     - Ensure **Is equal to** is selected as the condition
     - set the value to compare to `details`
