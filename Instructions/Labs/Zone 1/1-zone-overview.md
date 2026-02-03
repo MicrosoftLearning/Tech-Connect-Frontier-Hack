@@ -26,7 +26,7 @@ There are two valid ways to complete Zone 1. Choose the one that best fits your 
 
 ### 🧭 Option A — Guided Build
 
-If you're new to building agents, or want a structured path, continue with the step-by-step instructions that follow under **Create a New Agent in Microsoft 365 Copilott**.
+If you're new to building agents, or want a structured path, continue with the step-by-step instructions that follow under **Create a New Agent in Microsoft 365 Copilot**.
 
 ### 🚀 Option B — Build It on Your Own
 
