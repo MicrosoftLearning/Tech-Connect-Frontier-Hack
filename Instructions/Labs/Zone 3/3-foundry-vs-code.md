@@ -1,3 +1,17 @@
+---
+lab:
+  title: Use Azure AI Foundry in Visual Studio Code
+  description: Now that your agent is up and running, take some time to explore the
+    available features in the **Azure AI Foundry** extension.
+  duration: 34 minutes
+  level: 100
+  islab: true
+  primarytopics:
+  - Azure
+  - Visual Studio
+  - Visual Studio Code
+---
+
 # Use Azure AI Foundry in Visual Studio Code
 
 > [!IMPORTANT]
