@@ -1,3 +1,12 @@
+---
+lab:
+  title: Zone 2 — Outcomes & Next Steps
+  description: Your agent must meet the following requirements before moving on.
+  duration: 14 minutes
+  level: 100
+  islab: true
+---
+
 # Zone 2 — Outcomes & Next Steps
 
 ## Zone 2 Exit Criteria
