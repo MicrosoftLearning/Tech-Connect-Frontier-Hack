@@ -1,3 +1,15 @@
+---
+lab:
+  title: Setup Your Azure AI Foundry Project
+  description: In this task, you’ll create a new Azure AI Foundry project that is
+    used as your baseline throughout Zone 3.
+  duration: 80 minutes
+  level: 200
+  islab: true
+  primarytopics:
+  - Azure
+---
+
 # Setup Your Azure AI Foundry Project
 
 In this task, you’ll create a new Azure AI Foundry project that is used as your baseline throughout Zone 3.
