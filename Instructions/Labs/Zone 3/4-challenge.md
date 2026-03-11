@@ -1,3 +1,12 @@
+---
+lab:
+  title: 'Challenge: Design for the Real World'
+  description: 'So far, you’ve explored agents from multiple angles:'
+  duration: 20 minutes
+  level: 100
+  islab: true
+---
+
 # Challenge: Design for the Real World
 
 So far, you’ve explored agents from multiple angles:
