@@ -1,3 +1,12 @@
+---
+lab:
+  title: Testing Your Agent
+  description: Refine your instructions and retest until the agent consistently gives grounded, explainable answers.
+  duration: 10 minutes
+  level: 100
+  islab: true
+---
+
 # Testing Your Agent
 
 Test your agent with realistic, portfolio-level questions based on the dataset you chose to ground it in.
