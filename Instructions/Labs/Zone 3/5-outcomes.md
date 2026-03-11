@@ -1,3 +1,12 @@
+---
+lab:
+  title: Zone 3 — Outcomes & Next Steps
+  description: (for example, an MCP server, Bing search grounding, or another live system in a real-world deployment)
+  duration: 14 minutes
+  level: 200
+  islab: true
+---
+
 # Zone 3 — Outcomes & Next Steps
 
 ## Zone 3 Exit Criteria
