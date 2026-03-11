@@ -1,3 +1,12 @@
+---
+lab:
+  title: Configure Topic Flows for Your Agent
+  description: In this task, you'll introduce **intent-based routing** into your agent.
+  duration: 106 minutes
+  level: 100
+  islab: true
+---
+
 # Configure Topic Flows for Your Agent
 
 In this task, you'll introduce **intent-based routing** into your agent.
