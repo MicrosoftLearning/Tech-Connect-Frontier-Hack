@@ -1,3 +1,12 @@
+---
+lab:
+  title: Create a New Agent in Copilot Studio
+  description: In this task, you'll create the base agent that all topic logic in Zone 2 will build upon.
+  duration: 15 minutes
+  level: 100
+  islab: true
+---
+
 # Create a New Agent in Copilot Studio
 
 In this task, you'll create the base agent that all topic logic in Zone 2 will build upon.
