@@ -1,3 +1,12 @@
+---
+lab:
+  title: '🟡 Zone 2: Build a Reasoning & Routing Agent (Copilot Studio)'
+  description: '**Suggested Time:** ~65 minutes'
+  duration: 65 minutes
+  level: 200
+  islab: true
+---
+
 # 🟡 Zone 2: Build a Reasoning & Routing Agent (Copilot Studio)
 
 **Suggested Time:** ~65 minutes
