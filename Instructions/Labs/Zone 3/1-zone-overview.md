@@ -1,3 +1,14 @@
+---
+lab:
+  title: '🔵 Zone 3: Design & Orchestrate an Agent System (Azure AI Foundry)'
+  description: '**Suggested Time:** ~65 minutes'
+  duration: 65 minutes
+  level: 200
+  islab: true
+  primarytopics:
+  - Azure
+---
+
 # 🔵 Zone 3: Design & Orchestrate an Agent System (Azure AI Foundry)
 
 **Suggested Time:** ~65 minutes
