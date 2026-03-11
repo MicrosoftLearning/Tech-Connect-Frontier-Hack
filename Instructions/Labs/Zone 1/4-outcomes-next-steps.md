@@ -1,3 +1,12 @@
+---
+lab:
+  title: Zone 1 — Outcomes & Next Steps
+  description: '➡️ 🟡 Zone 2: Build a Reasoning & Routing Agent (Copilot Studio)'
+  duration: 14 minutes
+  level: 100
+  islab: true
+---
+
 # Zone 1 — Outcomes & Next Steps
 
 ## Zone 1 Exit Criteria
