@@ -1,3 +1,12 @@
+---
+lab:
+  title: '🟡 Zone 2: Build a Reasoning & Routing Agent (Copilot Studio)'
+  description: '➡️ Guided path: Begin with Create a New Agent in Copilot Studio ➡️ On-your-own path: Use the guidance above to build your agent, then move directly to Challenge: Go Beyond the Script'
+  duration: 65 minutes
+  level: 200
+  islab: true
+---
+
 # 🟡 Zone 2: Build a Reasoning & Routing Agent (Copilot Studio)
 
 **Suggested Time:** ~65 minutes
