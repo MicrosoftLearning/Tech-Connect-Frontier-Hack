@@ -1,3 +1,14 @@
+---
+lab:
+  title: '🔵 Zone 3: Design & Orchestrate an Agent System (Azure AI Foundry)'
+  description: Rather than focusing on a single agent or scripted scenario, this zone focuses on system-level design — how agents, workflows, and data work together to solve a real problem.
+  duration: 65 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Azure
+---
+
 # 🔵 Zone 3: Design & Orchestrate an Agent System (Azure AI Foundry)
 
 **Suggested Time:** ~65 minutes
