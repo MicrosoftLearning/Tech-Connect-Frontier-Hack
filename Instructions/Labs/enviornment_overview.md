@@ -1,3 +1,12 @@
+---
+lab:
+  title: Welcome to Your Lab Environment
+  description: 'Start by signing in to the virtual machine using the credentials below:'
+  duration: 10 minutes
+  level: 100
+  islab: true
+---
+
 # Welcome to Your Lab Environment
 
 Start by signing in to the virtual machine using the credentials below:
