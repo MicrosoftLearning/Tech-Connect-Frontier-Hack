@@ -1,3 +1,13 @@
+---
+lab:
+  title: Testing Your Agent
+  description: Test your agent with realistic, portfolio-level questions based on
+    the dataset you chose to ground it in.
+  duration: 10 minutes
+  level: 100
+  islab: true
+---
+
 # Testing Your Agent
 
 Test your agent with realistic, portfolio-level questions based on the dataset you chose to ground it in.
