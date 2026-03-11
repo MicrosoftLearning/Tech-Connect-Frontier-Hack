@@ -1,3 +1,15 @@
+---
+lab:
+  title: Create a New Agent in Microsoft 365 Copilot
+  description: To get started with configuring your agent, open Microsoft 365 Copilot.
+  duration: 30 minutes
+  level: 200
+  islab: true
+  primarytopics:
+    - Microsoft 365
+    - Microsoft 365 Copilot
+---
+
 # Create a New Agent in Microsoft 365 Copilot
 
 ## Step 1: Access Agent Builder in Microsoft 365 Copilot
