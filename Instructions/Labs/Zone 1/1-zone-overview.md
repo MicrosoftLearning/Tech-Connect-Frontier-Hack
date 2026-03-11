@@ -1,3 +1,12 @@
+---
+lab:
+  title: '🟢 Zone 1: Build a Retrieval Agent (Copilot Chat)'
+  description: The primary dataset for this zone is CRMSyntheticData.xlsx, which includes multiple related record types (such as accounts, leads, and opportunities) and serves as the baseline for the guided examples and testing scenarios throughout the workshop.
+  duration: 35 minutes
+  level: 100
+  islab: true
+---
+
 # 🟢 Zone 1: Build a Retrieval Agent (Copilot Chat)
 
 **Suggested Time:** ~35 minutes
