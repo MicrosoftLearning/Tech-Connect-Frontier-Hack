@@ -1,3 +1,12 @@
+---
+lab:
+  title: Configure Topic Flows for Your Agent
+  description: The guided steps use two response styles—summary and details—but the same routing pattern can support other scenarios or entities.
+  duration: 106 minutes
+  level: 100
+  islab: true
+---
+
 # Configure Topic Flows for Your Agent
 
 In this task, you'll introduce **intent-based routing** into your agent.
