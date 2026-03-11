@@ -1,3 +1,12 @@
+---
+lab:
+  title: Finalize Your Topics
+  description: In the Test your agent pane, select the (+) icon to Start a new test session.
+  duration: 64 minutes
+  level: 200
+  islab: true
+---
+
 # Finalize Your Topics
 
 In this task, you'll add **data-grounded generative responses** to your topic flows.
