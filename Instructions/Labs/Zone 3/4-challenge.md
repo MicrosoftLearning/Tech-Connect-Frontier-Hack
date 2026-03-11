@@ -1,3 +1,12 @@
+---
+lab:
+  title: 'Challenge: Design for the Real World'
+  description: Design an agent system to address that scenario. You are not expected to fully build everything — focus on a design that could realistically be implemented.
+  duration: 20 minutes
+  level: 100
+  islab: true
+---
+
 # Challenge: Design for the Real World
 
 So far, you’ve explored agents from multiple angles:
