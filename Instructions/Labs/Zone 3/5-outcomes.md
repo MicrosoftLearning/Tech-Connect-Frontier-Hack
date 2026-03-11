@@ -1,3 +1,13 @@
+---
+lab:
+  title: Zone 3 — Outcomes & Next Steps
+  description: Your team’s agent system must meet the following requirements before
+    completing Zone 3.
+  duration: 14 minutes
+  level: 200
+  islab: true
+---
+
 # Zone 3 — Outcomes & Next Steps
 
 ## Zone 3 Exit Criteria
