@@ -1,3 +1,13 @@
+---
+lab:
+  title: 'Challenge: Go Beyond the Script'
+  description: By this point, you’ve either followed the guided steps or built your
+    own working agent in Copilot Studio.
+  duration: 18 minutes
+  level: 100
+  islab: true
+---
+
 # Challenge: Go Beyond the Script
 
 By this point, you’ve either followed the guided steps or built your own working agent in Copilot Studio.
