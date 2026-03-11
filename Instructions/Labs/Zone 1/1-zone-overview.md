@@ -1,3 +1,12 @@
+---
+lab:
+  title: '🟢 Zone 1: Build a Retrieval Agent (Copilot Chat)'
+  description: '**Suggested Time:** ~35 minutes'
+  duration: 35 minutes
+  level: 100
+  islab: true
+---
+
 # 🟢 Zone 1: Build a Retrieval Agent (Copilot Chat)
 
 **Suggested Time:** ~35 minutes
