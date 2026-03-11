@@ -1,3 +1,16 @@
+---
+lab:
+  title: Welcome to Your Lab Environment
+  description: The Resources tab contains the credentials for your assigned Microsoft 365 tenant, including the username, password, and temporary access (TAP) details. You’ll use these credentials throughout the lab to sign in to services such as Microsoft 365 Copilot and Azure AI Foundry.
+  duration: 10 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Azure
+    - Microsoft 365
+    - Microsoft 365 Copilot
+---
+
 # Welcome to Your Lab Environment
 
 Start by signing in to the virtual machine using the credentials below:
