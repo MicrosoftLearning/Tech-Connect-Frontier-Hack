@@ -1,3 +1,14 @@
+---
+lab:
+  title: Zone 2 — Outcomes & Next Steps
+  description: '➡️ 🔵 Zone 3: Design & Orchestrate an Agent System (Azure AI Foundry)'
+  duration: 14 minutes
+  level: 100
+  islab: true
+  primarytopics:
+    - Azure
+---
+
 # Zone 2 — Outcomes & Next Steps
 
 ## Zone 2 Exit Criteria
